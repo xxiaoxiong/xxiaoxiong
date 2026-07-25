@@ -1,0 +1,39 @@
+{
+  "name": "nicholas-agentic-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "fetch:github": "node --import tsx scripts/fetch-github-data.ts",
+    "generate": "node --import tsx scripts/generate-profile.ts",
+    "generate:check": "node --import tsx scripts/generate-profile.ts --check",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "validate:links": "node --import tsx scripts/validate-links.ts",
+    "validate:svg": "node --import tsx scripts/validate-svg.ts",
+    "validate": "pnpm lint && pnpm typecheck && pnpm test && pnpm generate:check && pnpm validate:svg && pnpm validate:links",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "fast-xml-parser": "^5.2.5",
+    "yaml": "^2.8.1",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "@types/node": "^24.3.0",
+    "eslint": "^9.34.0",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.41.0",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,240 @@
+projects:
+  - repository: xxiaoxiong/MegaDeepagents
+    title: MegaDeepagents
+    description: A governed, recoverable and observable multi-agent task runtime.
+    problem: Multi-agent coding systems need durable ownership, controlled tools and verifiable completion instead of optimistic chat coordination.
+    architecture: LangGraph root graph → TaskGraph/TaskBoard → parallel scheduler → DeepAgent workers → ArtifactStore → fail-closed Verifier → repair or replan.
+    evidence:
+      - Single runtime shared by browser, API and CLI
+      - Versioned plan state and transactional execution state
+      - Stable agent sessions, Git worktrees and governed integration
+      - Python and frontend validation commands documented
+    liveUrl: https://megadeepagents.vercel.app
+    repositoryUrl: https://github.com/xxiaoxiong/MegaDeepagents
+    technologies: [Python, FastAPI, LangGraph, DeepAgents, SQLite, Vue 3]
+    priority: 1
+    pinRecommendation: true
+    originality: original
+    readmeQuality: strong
+    hasDemo: true
+    hasTests: true
+    hasCI: false
+    license: License header declares MIT; root LICENSE was not detected
+    issues:
+      - Add a root LICENSE file
+      - Add a visible CI workflow and status
+    improvements:
+      - Publish a short architecture demo with a verified run trace
+      - Surface test scope and release history
+  - repository: xxiaoxiong/3DHomepage
+    title: NICHOLAS / SPATIAL AI WORLD
+    description: A continuous Three.js world used as the information architecture for an engineering portfolio.
+    problem: Conventional portfolio grids do not communicate systems thinking or create a memorable exploration path.
+    architecture: Next.js shell → persistent React Three Fiber world → camera director → six spatial system zones → accessible HUD and deep links.
+    evidence:
+      - Live Vercel deployment
+      - Six navigable spatial zones with real project links
+      - Local 3D assets with attribution
+      - Responsive controls and reduced-motion behavior
+    liveUrl: https://3-d-homepage.vercel.app/
+    repositoryUrl: https://github.com/xxiaoxiong/3DHomepage
+    technologies: [Next.js, TypeScript, Three.js, React Three Fiber]
+    priority: 2
+    pinRecommendation: true
+    originality: original
+    readmeQuality: strong
+    hasDemo: true
+    hasTests: false
+    hasCI: false
+    license: MIT
+    issues:
+      - No repository CI was detected
+      - Automated interaction coverage is not documented
+    improvements:
+      - Add smoke tests for deep links and reduced-motion mode
+      - Add a performance budget workflow
+  - repository: xxiaoxiong/awesome-multi-agent-projects
+    title: Awesome Multi-Agent Projects
+    description: A bilingual, domain-first research directory of open-source multi-agent systems.
+    problem: Agent project lists become stale, duplicate data and rarely explain coordination models or adoption trade-offs.
+    architecture: Structured dataset → schema validation → deterministic bilingual README and Astro site → CI and link checks.
+    evidence:
+      - 101 researched projects across 21 categories in the audited README
+      - Internal bilingual research pages
+      - One dataset generates README and site
+      - CI validates schema, rendering, types, tests, build and links
+    liveUrl: https://awesome-multi-agent-projects-site.vercel.app
+    repositoryUrl: https://github.com/xxiaoxiong/awesome-multi-agent-projects
+    technologies: [TypeScript, Astro, Zod, Vitest, GitHub Actions]
+    priority: 3
+    pinRecommendation: true
+    originality: original
+    readmeQuality: strong
+    hasDemo: true
+    hasTests: true
+    hasCI: true
+    license: CC0-1.0
+    issues:
+      - Research freshness depends on maintenance cadence
+      - Project-count claims must remain generated from the dataset
+    improvements:
+      - Add visible review timestamps per project
+      - Publish change reports for weekly refreshes
+  - repository: xxiaoxiong/AI-Agent-Orchestration
+    title: Enterprise Agent Orchestration Lab
+    description: A learning-oriented orchestration lab with policy checks, approvals and replayable evaluation.
+    problem: Agent demos often hide routing, tool selection, approval gates and failure behavior.
+    architecture: Vue control surface → FastAPI orchestration API → LangGraph durable state → tools and policy → trace and evaluation.
+    evidence:
+      - Approval pause and resume
+      - Tool logging and policy blocking
+      - Replayable smoke benchmark
+      - Docker Compose quick start
+    liveUrl: null
+    repositoryUrl: https://github.com/xxiaoxiong/AI-Agent-Orchestration
+    technologies: [Python, FastAPI, LangGraph, Vue 3, Docker]
+    priority: 4
+    pinRecommendation: true
+    originality: original
+    readmeQuality: good
+    hasDemo: false
+    hasTests: true
+    hasCI: false
+    license: No root license detected
+    issues:
+      - No root license or CI was detected
+      - Local deterministic fallback must be clearly separated from model-backed evidence
+    improvements:
+      - Add CI and an explicit license
+      - Publish a trace recording for the approval flow
+  - repository: xxiaoxiong/AI-DocReviewer
+    title: AI DocReviewer
+    description: A long-document review pipeline with chunking, retrieval and cross-section checks.
+    problem: Standards review requires preserving context across long documents while controlling false positives.
+    architecture: Document parser → contextual chunker → rule retrieval → LLM review → cross-paragraph verification → streaming results.
+    evidence:
+      - Word parsing and structure-aware chunking
+      - RAG rules and cross-paragraph checks
+      - Confidence calibration and review caching are documented
+    liveUrl: null
+    repositoryUrl: https://github.com/xxiaoxiong/AI-DocReviewer
+    technologies: [Python, FastAPI, RAG, Vector Search]
+    priority: 5
+    pinRecommendation: true
+    originality: original
+    readmeQuality: good
+    hasDemo: false
+    hasTests: false
+    hasCI: false
+    license: No root license detected
+    issues:
+      - Performance and accuracy percentages in the README were not independently verifiable
+      - No license or CI was detected
+    improvements:
+      - Replace promotional metrics with a reproducible evaluation dataset
+      - Add golden-file tests and failure analysis
+  - repository: xxiaoxiong/AI-GeneralPlat
+    title: Enterprise AI General Platform
+    description: A broad AI platform prototype covering model access, RAG, workflows, agents and operational controls.
+    problem: Enterprise AI capabilities are often fragmented across model gateways, knowledge bases, workflows and administration.
+    architecture: Vue platform → FastAPI services → agent and inference layers → MySQL/Redis/vector store → Docker deployment.
+    evidence:
+      - Model management, streaming chat and knowledge bases
+      - Visual workflow orchestration
+      - Agent trace and monitoring modules
+      - Alembic-backed database workflow is documented
+    liveUrl: null
+    repositoryUrl: https://github.com/xxiaoxiong/AI-GeneralPlat
+    technologies: [Vue 3, FastAPI, MySQL, Redis, RAG, Docker]
+    priority: 6
+    pinRecommendation: true
+    originality: original
+    readmeQuality: good
+    hasDemo: false
+    hasTests: true
+    hasCI: false
+    license: No root license detected
+    issues:
+      - No root license or CI was detected
+      - Example credentials and deployment defaults need security review
+    improvements:
+      - Add secret scanning and secure first-run setup
+      - Narrow the product story around one end-to-end enterprise workflow
+  - repository: xxiaoxiong/AI-ComputerRAG
+    title: AI Computer RAG
+    description: A Windows local file search concept combining FTS, vectors and LLM-assisted recall.
+    problem: Users often remember fragments of a file rather than its exact name or location.
+    architecture: PyQt interface → filesystem watcher and parsers → SQLite FTS5 plus vector index → local or hosted LLM.
+    evidence:
+      - Local-first Windows workflow
+      - Hybrid filename, full-text and semantic retrieval design
+      - Incremental indexing and resource limits are documented
+    liveUrl: null
+    repositoryUrl: https://github.com/xxiaoxiong/AI-ComputerRAG
+    technologies: [Python, PyQt6, SQLite FTS5, BGE, USearch]
+    priority: 7
+    pinRecommendation: false
+    originality: original
+    readmeQuality: adequate
+    hasDemo: false
+    hasTests: false
+    hasCI: false
+    license: No root license detected
+    issues:
+      - No license, CI or reproducible benchmark was detected
+      - Windows-only packaging evidence is limited
+    improvements:
+      - Add retrieval benchmarks and an indexed-file privacy model
+      - Publish a signed release and installer verification
+  - repository: xxiaoxiong/AI-DatabaseQuery
+    title: AI Database Query
+    description: A local natural-language-to-SQL visualization MVP.
+    problem: Business users need guarded access to relational data without writing SQL.
+    architecture: React workspace → FastAPI → NL-to-SQL → SELECT-only validation → SQLAlchemy connectors → ECharts.
+    evidence:
+      - MySQL, PostgreSQL and SQLite connectors are documented
+      - SELECT-only validation and query history
+      - OpenAI-compatible model endpoint support
+    liveUrl: null
+    repositoryUrl: https://github.com/xxiaoxiong/AI-DatabaseQuery
+    technologies: [React, TypeScript, FastAPI, SQLAlchemy, ECharts]
+    priority: 8
+    pinRecommendation: false
+    originality: original
+    readmeQuality: needs-work
+    hasDemo: false
+    hasTests: false
+    hasCI: false
+    license: No root license detected
+    issues:
+      - Public documentation contains credential-shaped text that must be removed and rotated if real
+      - No license, CI or query-safety tests were detected
+    improvements:
+      - Remove all credential-shaped examples and add secret scanning
+      - Add SQL parser-based policy tests and database sandboxing
+  - repository: xxiaoxiong/Deepwiki-Local
+    title: Deepwiki Local
+    description: A local adaptation of the upstream DeepWiki-Open repository.
+    problem: Repository documentation and code Q&A need local model and private-repository support.
+    architecture: Next.js interface → repository ingestion → code analysis and diagrams → RAG question answering.
+    evidence:
+      - Upstream README and MIT license are preserved
+      - Multiple model and embedding providers are documented
+      - Docker-based local setup
+    liveUrl: null
+    repositoryUrl: https://github.com/xxiaoxiong/Deepwiki-Local
+    technologies: [Next.js, React, TypeScript, RAG, Docker]
+    priority: 9
+    pinRecommendation: false
+    originality: fork
+    readmeQuality: upstream
+    hasDemo: false
+    hasTests: false
+    hasCI: false
+    license: MIT, upstream copyright preserved
+    issues:
+      - Repository identity and README remain primarily upstream
+      - Local modifications are not clearly documented
+    improvements:
+      - Add a fork-delta document and local deployment evidence
+      - Keep it unpinned unless the adaptation becomes a distinct maintained product
