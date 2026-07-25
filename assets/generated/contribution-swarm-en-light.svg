@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
-  <title id="title">开源贡献脉冲</title>
+  <title id="title">OPEN-SOURCE CONTRIBUTION PULSE</title>
   <desc id="desc">A GitHub contribution calendar rendered only from verified API data, with a last-known-good fallback.</desc>
   <defs>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
@@ -10,8 +10,8 @@
   </defs>
   <rect width="1200" height="330" rx="20" fill="#F6F8FC"/>
   <rect x="36" y="34" width="1128" height="262" rx="15" fill="#FFFFFF" stroke="#D7DFEB"/>
-  <text x="68" y="67" fill="#101828" font-size="16" font-weight="700">开源贡献脉冲</text>
-  <text x="1132" y="67" fill="#526071" font-size="11" text-anchor="end" letter-spacing="0.5" class="mono">等待首次公共数据刷新</text>
+  <text x="68" y="67" fill="#101828" font-size="16" font-weight="700">OPEN-SOURCE CONTRIBUTION PULSE</text>
+  <text x="1132" y="67" fill="#526071" font-size="11" text-anchor="end" letter-spacing="1.5" class="mono">VERIFIED DATA REFRESH PENDING</text>
   <rect x="72" y="92" width="13" height="13" rx="3" fill="#D7DFEB" opacity="0.45"/>
   <rect x="72" y="111" width="13" height="13" rx="3" fill="#D7DFEB" opacity="0.45"/>
   <rect x="72" y="130" width="13" height="13" rx="3" fill="#D7DFEB" opacity="0.45"/>
@@ -383,13 +383,13 @@
   <rect x="1060" y="168" width="13" height="13" rx="3" fill="#D7DFEB" opacity="0.45"/>
   <rect x="1060" y="187" width="13" height="13" rx="3" fill="#D7DFEB" opacity="0.45"/>
   <rect x="1060" y="206" width="13" height="13" rx="3" fill="#D7DFEB" opacity="0.45"/>
-  <text x="575" y="170" fill="#526071" text-anchor="middle" font-size="13" class="mono">运行 UPDATE PROFILE 工作流以载入公开贡献日历</text>
-  <text x="80" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">总贡献</text>
+  <text x="575" y="170" fill="#526071" text-anchor="middle" font-size="13" class="mono">RUN UPDATE PROFILE TO LOAD THE PUBLIC CONTRIBUTION CALENDAR</text>
+  <text x="80" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">TOTAL</text>
   <text x="198" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">—</text>
-  <text x="358" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">活跃天数</text>
+  <text x="358" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">ACTIVE DAYS</text>
   <text x="476" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">—</text>
-  <text x="636" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">当前连续</text>
+  <text x="636" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">CURRENT STREAK</text>
   <text x="754" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">—</text>
-  <text x="914" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">最长连续</text>
+  <text x="914" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">LONGEST STREAK</text>
   <text x="1032" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">—</text>
 </svg>

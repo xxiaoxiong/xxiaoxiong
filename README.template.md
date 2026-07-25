@@ -1,71 +1,48 @@
-<p align="right"><a href="README.zh-CN.md">简体中文</a></p>
+<p align="right"><a href="README.en.md"><kbd>English</kbd></a></p>
 
 {{HERO}}
 
 <p align="center">
-  <a href="https://3-d-homepage.vercel.app/"><strong>Enter Spatial AI World</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/xxiaoxiong/MegaDeepagents"><strong>Explore MegaDeepagents</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Axxiaoxiong"><strong>View Open-Source Work</strong></a>
+  <a href="https://3-d-homepage.vercel.app/"><strong>🌐 进入 3D AI 世界</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/xxiaoxiong?tab=repositories"><strong>🧩 浏览全部项目</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Axxiaoxiong"><strong>⚡ 查看开源贡献</strong></a>
 </p>
 
-## System Signature
+## 核心项目
 
-{{SIGNATURE}}
+{{PROJECTS_VISUAL}}
 
-## Flagship Systems
+{{PROJECT_LINKS}}
 
-{{FLAGSHIPS}}
+## 能力轨道
 
-## Open-Source Fieldwork
+{{CAPABILITY_VISUAL}}
 
-Only merged pull requests authored by
-[`xxiaoxiong`](https://github.com/xxiaoxiong) in repositories owned by other
-accounts are eligible. Empty or failed API responses never replace the
-last-known-good cache.
+## 开源脉冲
+
+{{CONTRIBUTION_VISUAL}}
+
+<details>
+<summary><strong>查看已合并的外部开源贡献</strong></summary>
 
 {{OPEN_SOURCE}}
 
-## Architecture Map
+</details>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/architecture-map-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/generated/architecture-map-light.svg">
-  <img alt="Architecture map from problem framing to open-source delivery" src="assets/generated/architecture-map-dark.svg" width="100%">
-</picture>
+## 联系我
 
-## Capability Matrix
+<p align="center">
+  <strong>多智能体系统 · 本地 AI 平台 · RAG / 知识工程 · 企业 AI 应用</strong>
+</p>
 
-{{CAPABILITIES}}
+<p align="center">
+  <a href="mailto:{{EMAIL}}">📮 {{EMAIL}}</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/xxiaoxiong">GitHub</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://3-d-homepage.vercel.app/">3D Portfolio</a>
+</p>
 
-## Agent Swarm Contribution Map
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/contribution-swarm-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/generated/contribution-swarm-light.svg">
-  <img alt="Agent swarm moving through verified public GitHub contribution data" src="assets/generated/contribution-swarm-dark.svg" width="100%">
-</picture>
-
-The map is generated from GitHub's `contributionsCollection`. If that API is
-unavailable, the repository keeps the last verified asset; a fresh repository
-shows an explicit pending state rather than invented activity.
-
-## Now Building
-
-{{NOW_BUILDING}}
-
-## Collaboration
-
-**OPEN TO COLLABORATION**
-
-Multi-agent runtime · Local AI platform · RAG and knowledge systems ·
-Open-source engineering
-
-[GitHub](https://github.com/xxiaoxiong) ·
-[Spatial portfolio](https://3-d-homepage.vercel.app/) ·
-[{{EMAIL}}](mailto:{{EMAIL}})
-
-<sub>This profile is generated from versioned YAML and verified GitHub API
-data. Architecture, customization and audit notes live in
-[`docs/`](docs/ARCHITECTURE.md).</sub>
+<p align="center"><sub>内容由版本化数据与 GitHub 公共 API 生成；动态 SVG 支持减少动态效果偏好。</sub></p>

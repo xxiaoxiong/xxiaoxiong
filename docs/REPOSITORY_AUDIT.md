@@ -7,17 +7,40 @@ work exists elsewhere in the repository.
 
 | Repository | Identity | README | Demo | Tests / CI | License | Pin |
 |---|---|---|---|---|---|---|
-| `MegaDeepagents` | Original | Strong V3 runtime and deployment narrative | Project site | Tests documented; root CI not detected | MIT declaration, root file missing | Yes |
 | `3DHomepage` | Original | Strong spatial-system narrative | Live Vercel site | No CI detected | MIT | Yes |
+| `learn-hermes-agent` | Original | Strong 24-chapter teaching path | Runnable chapters | Tests present; root CI not detected | Verify root license | Yes |
 | `awesome-multi-agent-projects` | Original | Strong bilingual research directory | Live site | Tests and CI | CC0-1.0 | Yes |
-| `AI-Agent-Orchestration` | Original | Good learning-lab scope | No public demo detected | Tests documented; no CI detected | Missing | Yes |
-| `AI-DocReviewer` | Original | Good pipeline description; promotional metrics need evidence | No public demo detected | Not verified | Missing | Yes |
+| `MegaDeepagents` | Original | Strong V3 runtime and deployment narrative | Project site | Tests documented; root CI not detected | MIT declaration, root file missing | Yes |
+| `general-agent-frame` | Original | Strong compact runtime scope | Local web and CLI | Tests documented; no CI detected | MIT | Yes |
 | `AI-GeneralPlat` | Original | Broad platform coverage | No public demo detected | Tests referenced; no CI detected | Missing | Yes, after hygiene |
+| `AI-Agent-Orchestration` | Original | Good learning-lab scope | No public demo detected | Tests documented; no CI detected | Missing | No |
+| `AI-DocReviewer` | Original | Good pipeline description; promotional metrics need evidence | No public demo detected | Not verified | Missing | No |
 | `AI-ComputerRAG` | Original | Adequate product concept | No public demo detected | Not verified | Missing | No |
 | `AI-DatabaseQuery` | Original | Needs security cleanup | No public demo detected | Not verified | Missing | No |
 | `Deepwiki-Local` | Fork/adaptation | Primarily upstream DeepWiki-Open identity | No distinct demo detected | No distinct CI detected | Upstream MIT | No |
 
 ## Detailed findings
+
+### 3DHomepage
+
+The strongest experiential proof. It turns six engineering themes into a
+continuous Three.js world with project deep links and a live deployment.
+Automated deep-link, reduced-motion and performance-budget checks would make
+the engineering evidence match the visual quality.
+
+### learn-hermes-agent
+
+A focused teaching companion that decomposes Hermes Agent v0.19.0 into 24
+progressive mechanisms, including runnable minimal implementations and the
+current profile, multi-agent and durable-delivery architecture. Add CI and
+keep each chapter visibly tied to the upstream version it explains.
+
+### awesome-multi-agent-projects
+
+The strongest open-source information product. One typed dataset drives the
+README and site; CI checks schema, deterministic rendering, types, tests,
+builds and links. Preserve evidence timestamps and publish weekly change
+reports as the directory grows.
 
 ### MegaDeepagents
 
@@ -27,19 +50,12 @@ fail-closed verification, Git worktree isolation and separate deployment
 surfaces. Add a root license and visible CI, then publish one trace-backed
 end-to-end demo.
 
-### 3DHomepage
+### general-agent-frame
 
-The strongest experiential proof. It turns six engineering themes into a
-continuous Three.js world with project deep links and a live deployment.
-Automated deep-link, reduced-motion and performance-budget checks would make
-the engineering evidence match the visual quality.
-
-### awesome-multi-agent-projects
-
-The strongest open-source information product. One typed dataset drives the
-README and site; CI checks schema, deterministic rendering, types, tests,
-builds and links. Preserve evidence timestamps and publish weekly change
-reports as the directory grows.
+A deliberately compact DeepAgents-native runtime that keeps FastAPI, CLI,
+workspace, memory, skills, permissions and SQLite while removing unstable
+self-evolution paths. Add CI and publish a minimal trace that demonstrates the
+permission and approval boundary.
 
 ### AI-Agent-Orchestration
 
@@ -83,11 +99,11 @@ adaptation.
 
 ## Recommended six pins
 
-1. `MegaDeepagents`
-2. `3DHomepage`
+1. `3DHomepage`
+2. `learn-hermes-agent`
 3. `awesome-multi-agent-projects`
-4. `AI-Agent-Orchestration`
-5. `AI-DocReviewer`
+4. `MegaDeepagents`
+5. `general-agent-frame`
 6. `AI-GeneralPlat` — after credential, license and CI hygiene
 
 GitHub does not expose pin management through this repository. Apply these six

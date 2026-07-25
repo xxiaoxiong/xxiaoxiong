@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Nicholas Xiong — 智能体系统工程师</title>
-  <desc id="desc">面向生产环境构建多智能体运行时、本地 AI 平台与知识系统。</desc>
+  <title id="title">Nicholas Xiong — Agentic Systems Engineer</title>
+  <desc id="desc">Production-grade multi-agent runtimes, local AI platforms and knowledge systems.</desc>
   <defs>
     <linearGradient id="beam" x1="0" x2="1">
       <stop offset="0" stop-color="#007C99" stop-opacity="0.08"/>
@@ -33,11 +33,11 @@
     <path d="M16 49V17h7l20 22V17h8v32h-7L24 27v22z" fill="#101828"/>
     <circle cx="55" cy="11" r="4" fill="#16834B" class="pulse" filter="url(#glow)"/>
   </g>
-  <text x="74" y="188" fill="#526071" font-size="14" letter-spacing="2" class="mono">NICHOLAS / 智能体系统</text>
-  <text x="74" y="242" fill="#101828" font-size="42" font-weight="760" letter-spacing="1">智能体系统工程师</text>
-  <text x="74" y="282" fill="#101828" font-size="20">构建可治理的多智能体运行时、本地 AI 平台</text>
-  <text x="74" y="312" fill="#101828" font-size="20">以及可验证的企业级知识系统</text>
-  <text x="74" y="356" fill="#007C99" font-size="14" class="mono">多智能体运行时 · AI 基础设施 · RAG · 开源工程</text>
+  <text x="74" y="188" fill="#526071" font-size="14" letter-spacing="4" class="mono">NICHOLAS / AGENTIC SYSTEMS</text>
+  <text x="74" y="242" fill="#101828" font-size="40" font-weight="760" letter-spacing="1">AGENTIC SYSTEMS ENGINEER</text>
+  <text x="74" y="282" fill="#101828" font-size="20">Governed multi-agent runtimes, local AI platforms,</text>
+  <text x="74" y="312" fill="#101828" font-size="20">and production-grade knowledge systems.</text>
+  <text x="74" y="356" fill="#007C99" font-size="14" class="mono">MULTI-AGENT RUNTIME · AI INFRASTRUCTURE · RAG · OPEN SOURCE</text>
   <g>
     <line x1="900" y1="100" x2="1030" y2="175" stroke="url(#beam)" stroke-width="2"/>
     <line x1="1030" y1="175" x2="940" y2="260" stroke="url(#beam)" stroke-width="2"/>

@@ -15,11 +15,11 @@ through Zod before it reaches a template.
 
 ## Generation
 
-`generate-profile.ts` orchestrates small renderers. Hero, architecture and
-contribution visuals are native SVG strings with explicit dimensions,
-`viewBox`, title and description. The English README is generated from
-`README.template.md`; the Chinese README is intentionally maintained as a
-stable editorial translation.
+`generate-profile.ts` orchestrates small renderers. Hero, six-project showcase,
+capability orbit, architecture and contribution visuals are native SVG strings
+with explicit dimensions, `viewBox`, title and description. `README.md` is the
+default Chinese profile generated from `README.template.md`; `README.en.md` is
+generated from `README.en.template.md`.
 
 Generation is deterministic for a fixed set of input files. `--check` compares
 the expected output to the committed files and fails on drift.
@@ -47,5 +47,5 @@ diff exists, and is not triggered by its own push.
 ## Operational boundary
 
 The profile works without Actions because all generated assets are versioned.
-Actions refresh evidence; they are not a runtime dependency for the GitHub
-homepage.
+Actions refresh evidence in both languages; they are not a runtime dependency
+for the GitHub homepage.

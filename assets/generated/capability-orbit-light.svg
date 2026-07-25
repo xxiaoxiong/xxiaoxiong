@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">能力轨道</title>
+  <desc id="desc">从模型服务到产品交付</desc>
+  <defs>
+    <radialGradient id="coreGlow">
+      <stop offset="0" stop-color="#007C99" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#007C99" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="orbitGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text{font-family:Inter,"Noto Sans SC","Microsoft YaHei",ui-sans-serif,system-ui,sans-serif}
+      .mono{font-family:"SFMono-Regular",Consolas,"Noto Sans Mono CJK SC",monospace}
+      .orbitPulse{animation:orbitPulse 3s ease-in-out infinite}
+      .orbitSpin{transform-origin:600px 210px;animation:orbitSpin 20s linear infinite}
+      @keyframes orbitPulse{0%,100%{opacity:.35}50%{opacity:1}}
+      @keyframes orbitSpin{to{transform:rotate(360deg)}}
+      @media (prefers-reduced-motion:reduce){.orbitPulse,.orbitSpin{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="420" rx="22" fill="#F6F8FC"/>
+  <text x="40" y="43" fill="#101828" font-size="17" font-weight="760">能力轨道</text>
+  <text x="1160" y="43" fill="#526071" font-size="10.5" text-anchor="end" letter-spacing="1.4" class="mono">MODEL → RUNTIME → PRODUCT</text>
+  <ellipse cx="600" cy="210" rx="420" ry="145" fill="none" stroke="#D7DFEB" stroke-width="1.2" stroke-dasharray="5 8"/>
+  <ellipse cx="600" cy="210" rx="270" ry="104" fill="none" stroke="#D7DFEB" stroke-width="1" opacity=".7"/>
+  <g stroke="#D7DFEB" stroke-width="1.2">
+    <line x1="600" y1="210" x2="248" y2="108"/>
+    <line x1="600" y1="210" x2="600" y2="76"/>
+    <line x1="600" y1="210" x2="952" y2="108"/>
+    <line x1="600" y1="210" x2="952" y2="302"/>
+    <line x1="600" y1="210" x2="600" y2="334"/>
+    <line x1="600" y1="210" x2="248" y2="302"/>
+  </g>
+  <circle cx="600" cy="210" r="118" fill="url(#coreGlow)"/>
+  <circle cx="600" cy="210" r="72" fill="#FFFFFF" stroke="#007C99" stroke-width="1.7" filter="url(#orbitGlow)"/>
+  <text x="600" y="205" fill="#101828" font-size="18" font-weight="760" text-anchor="middle">AI 系统工程</text>
+  <text x="600" y="231" fill="#526071" font-size="11.5" text-anchor="middle">从模型服务到产品交付</text>
+  <g class="orbitSpin">
+    <circle cx="870" cy="210" r="5" fill="#16834B" filter="url(#orbitGlow)"/>
+    <circle cx="330" cy="210" r="4" fill="#6D3BE8" filter="url(#orbitGlow)"/>
+  </g>
+  <g transform="translate(248 108)">
+      <rect x="-132" y="-42" width="264" height="84" rx="17" fill="#FFFFFF" stroke="#007C99" stroke-opacity=".65"/>
+      <circle cx="-104" cy="-13" r="5" fill="#007C99" class="orbitPulse"/>
+      <text x="-88" y="-7" fill="#101828" font-size="15" font-weight="720">智能体系统</text>
+      <text x="0" y="22" fill="#526071" font-size="10.5" text-anchor="middle" class="mono">LangGraph · TaskGraph · Verifier</text>
+    </g>
+  <g transform="translate(600 76)">
+      <rect x="-132" y="-42" width="264" height="84" rx="17" fill="#FFFFFF" stroke="#6D3BE8" stroke-opacity=".65"/>
+      <circle cx="-104" cy="-13" r="5" fill="#6D3BE8" class="orbitPulse"/>
+      <text x="-88" y="-7" fill="#101828" font-size="15" font-weight="720">AI 基础设施</text>
+      <text x="0" y="22" fill="#526071" font-size="10.5" text-anchor="middle" class="mono">vLLM · LiteLLM · Observability</text>
+    </g>
+  <g transform="translate(952 108)">
+      <rect x="-132" y="-42" width="264" height="84" rx="17" fill="#FFFFFF" stroke="#007C99" stroke-opacity=".65"/>
+      <circle cx="-104" cy="-13" r="5" fill="#007C99" class="orbitPulse"/>
+      <text x="-88" y="-7" fill="#101828" font-size="15" font-weight="720">知识与 RAG</text>
+      <text x="0" y="22" fill="#526071" font-size="10.5" text-anchor="middle" class="mono">RAG · Hybrid Search · Evidence</text>
+    </g>
+  <g transform="translate(952 302)">
+      <rect x="-132" y="-42" width="264" height="84" rx="17" fill="#FFFFFF" stroke="#6D3BE8" stroke-opacity=".65"/>
+      <circle cx="-104" cy="-13" r="5" fill="#6D3BE8" class="orbitPulse"/>
+      <text x="-88" y="-7" fill="#101828" font-size="15" font-weight="720">后端与平台</text>
+      <text x="0" y="22" fill="#526071" font-size="10.5" text-anchor="middle" class="mono">FastAPI · Databases · SSE</text>
+    </g>
+  <g transform="translate(600 334)">
+      <rect x="-132" y="-42" width="264" height="84" rx="17" fill="#FFFFFF" stroke="#007C99" stroke-opacity=".65"/>
+      <circle cx="-104" cy="-13" r="5" fill="#007C99" class="orbitPulse"/>
+      <text x="-88" y="-7" fill="#101828" font-size="15" font-weight="720">产品体验</text>
+      <text x="0" y="22" fill="#526071" font-size="10.5" text-anchor="middle" class="mono">Vue 3 · Three.js · Bilingual</text>
+    </g>
+  <g transform="translate(248 302)">
+      <rect x="-132" y="-42" width="264" height="84" rx="17" fill="#FFFFFF" stroke="#6D3BE8" stroke-opacity=".65"/>
+      <circle cx="-104" cy="-13" r="5" fill="#6D3BE8" class="orbitPulse"/>
+      <text x="-88" y="-7" fill="#101828" font-size="15" font-weight="720">工程质量</text>
+      <text x="0" y="22" fill="#526071" font-size="10.5" text-anchor="middle" class="mono">Tests · CI · Fail-closed</text>
+    </g>
+</svg>

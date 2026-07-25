@@ -7,7 +7,8 @@ current focus, links or email address.
 
 ## Projects
 
-Edit `data/projects.yml`. Keep `problem`, `architecture` and `evidence`
+Edit `data/projects.yml`. `priority` controls the six-project visual order;
+lower numbers appear first. Keep `problem`, `architecture` and `evidence`
 specific. `pinRecommendation` controls the audit recommendation; actual GitHub
 Profile pins must still be changed in the GitHub UI.
 
@@ -18,8 +19,9 @@ supported by a public project or another reproducible artifact.
 
 ## Colors and motion
 
-The shared palette lives in `scripts/lib/svg.ts`. Animation is limited to the
-Hero and contribution map. Preserve the `prefers-reduced-motion` fallback.
+The shared palette lives in `scripts/lib/svg.ts`. Hero, project, capability and
+contribution visuals use restrained CSS or SMIL motion. Preserve the
+`prefers-reduced-motion` fallback.
 
 ## Regeneration
 

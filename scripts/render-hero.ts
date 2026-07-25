@@ -1,7 +1,31 @@
 import { documentStart, escapeXml, palette, type Theme } from "./lib/svg.js";
 
-export function renderHero(theme: Theme): string {
+export function renderHero(theme: Theme, language: "en" | "zh-CN" = "zh-CN"): string {
   const color = palette[theme];
+  const copy =
+    language === "zh-CN"
+      ? {
+          title: "Nicholas Xiong — 智能体系统工程师",
+          description: "面向生产环境构建多智能体运行时、本地 AI 平台与知识系统。",
+          eyebrow: "NICHOLAS / 智能体系统",
+          role: "智能体系统工程师",
+          statement: ["构建可治理的多智能体运行时、本地 AI 平台", "以及可验证的企业级知识系统"],
+          domains: "多智能体运行时 · AI 基础设施 · RAG · 开源工程",
+          online: "SYSTEM ONLINE"
+        }
+      : {
+          title: "Nicholas Xiong — Agentic Systems Engineer",
+          description:
+            "Production-grade multi-agent runtimes, local AI platforms and knowledge systems.",
+          eyebrow: "NICHOLAS / AGENTIC SYSTEMS",
+          role: "AGENTIC SYSTEMS ENGINEER",
+          statement: [
+            "Governed multi-agent runtimes, local AI platforms,",
+            "and production-grade knowledge systems."
+          ],
+          domains: "MULTI-AGENT RUNTIME · AI INFRASTRUCTURE · RAG · OPEN SOURCE",
+          online: "SYSTEM ONLINE"
+        };
   const nodes = [
     [900, 100, "PLAN"],
     [1030, 175, "RUN"],
@@ -16,7 +40,7 @@ export function renderHero(theme: Theme): string {
     [900, 100, 940, 260]
   ] as const;
 
-  return `${documentStart(1200, 430, "Nicholas Xiong — Agentic Systems Engineer", "Midnight agent control system with a governed task graph.")}
+  return `${documentStart(1200, 430, copy.title, copy.description)}
   <defs>
     <linearGradient id="beam" x1="0" x2="1">
       <stop offset="0" stop-color="${color.cyan}" stop-opacity="0.08"/>
@@ -49,11 +73,11 @@ export function renderHero(theme: Theme): string {
     <path d="M16 49V17h7l20 22V17h8v32h-7L24 27v22z" fill="${color.text}"/>
     <circle cx="55" cy="11" r="4" fill="${color.green}" class="pulse" filter="url(#glow)"/>
   </g>
-  <text x="74" y="188" fill="${color.muted}" font-size="14" letter-spacing="4" class="mono">NICHOLAS / AGENTIC SYSTEMS</text>
-  <text x="74" y="242" fill="${color.text}" font-size="40" font-weight="760" letter-spacing="1">${escapeXml("AGENTIC SYSTEMS ENGINEER")}</text>
-  <text x="74" y="282" fill="${color.text}" font-size="20">I build governed multi-agent runtimes, local AI platforms,</text>
-  <text x="74" y="312" fill="${color.text}" font-size="20">and production-grade knowledge systems.</text>
-  <text x="74" y="356" fill="${color.cyan}" font-size="14" class="mono">MULTI-AGENT RUNTIME · AI INFRASTRUCTURE · RAG · OPEN SOURCE</text>
+  <text x="74" y="188" fill="${color.muted}" font-size="14" letter-spacing="${language === "zh-CN" ? 2 : 4}" class="mono">${escapeXml(copy.eyebrow)}</text>
+  <text x="74" y="242" fill="${color.text}" font-size="${language === "zh-CN" ? 42 : 40}" font-weight="760" letter-spacing="1">${escapeXml(copy.role)}</text>
+  <text x="74" y="282" fill="${color.text}" font-size="20">${escapeXml(copy.statement[0] ?? "")}</text>
+  <text x="74" y="312" fill="${color.text}" font-size="20">${escapeXml(copy.statement[1] ?? "")}</text>
+  <text x="74" y="356" fill="${color.cyan}" font-size="14" class="mono">${escapeXml(copy.domains)}</text>
   <g>
     ${connections
       .map(
@@ -74,7 +98,7 @@ export function renderHero(theme: Theme): string {
   </g>
   <g transform="translate(940 338)">
     <circle cx="0" cy="-4" r="5" fill="${color.green}" class="pulse"/>
-    <text x="15" y="0" fill="${color.green}" font-size="12" letter-spacing="2" class="mono">SYSTEM ONLINE</text>
+    <text x="15" y="0" fill="${color.green}" font-size="12" letter-spacing="2" class="mono">${copy.online}</text>
   </g>
 </svg>
 `;
