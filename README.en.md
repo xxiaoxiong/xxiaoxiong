@@ -49,8 +49,8 @@
 |---|---|---|
 | [ZhuLinsen/daily_stock_analysis #2048](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2048) | feat: 支持 TUSHARE_HTTP_URL 自定义 Tushare Pro 接入地址 | Finance |
 | [nexu-io/open-design #5826](https://github.com/nexu-io/open-design/pull/5826) | fix(i18n): localize BYOK provider titles to English | Frontend |
-| [ZhuLinsen/daily_stock_analysis #2049](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2049) | fix: 外股代码映射到中文显示名时英文新闻相关性漏判 | Finance |
-| [nexu-io/open-design #5760](https://github.com/nexu-io/open-design/pull/5760) | fix(media): drop response_format for gpt-image-* on image edits | AI Gateway |
+| [ZhuLinsen/daily_stock_analysis #2049](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2049) | fix: 外股代码映射到中文显示名时英文新闻相关性漏判（issue #2026，PR #2047 关闭重做） | Finance |
+| [nexu-io/open-design #5760](https://github.com/nexu-io/open-design/pull/5760) | fix(media): drop response_format for gpt-image-* on /v1/images/edits (#5727) | Engineering |
 
 </details>
 
