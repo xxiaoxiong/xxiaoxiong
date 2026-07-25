@@ -9,7 +9,7 @@ function isLocal(value: string) {
   return !/^(?:https?:|mailto:|#)/.test(value);
 }
 
-export async function validateLinks(files = ["README.md", "README.zh-CN.md"]) {
+export async function validateLinks(files = ["README.md", "README.en.md"]) {
   for (const file of files) {
     const content = await readFile(resolve(rootDirectory, file), "utf8");
     const links = [

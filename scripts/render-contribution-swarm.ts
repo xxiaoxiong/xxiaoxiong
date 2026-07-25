@@ -9,8 +9,28 @@ const levelOpacity = {
   FOURTH_QUARTILE: 1
 } as const;
 
-export function renderContributionSwarm(data: GeneratedData, theme: Theme): string {
+export function renderContributionSwarm(
+  data: GeneratedData,
+  theme: Theme,
+  language: "en" | "zh-CN" = "zh-CN"
+): string {
   const color = palette[theme];
+  const copy =
+    language === "zh-CN"
+      ? {
+          title: "开源贡献脉冲",
+          verified: "已验证的 GitHub 公共数据",
+          pending: "等待首次公共数据刷新",
+          empty: "运行 UPDATE PROFILE 工作流以载入公开贡献日历",
+          metrics: ["总贡献", "活跃天数", "当前连续", "最长连续"]
+        }
+      : {
+          title: "OPEN-SOURCE CONTRIBUTION PULSE",
+          verified: "VERIFIED PUBLIC API DATA",
+          pending: "VERIFIED DATA REFRESH PENDING",
+          empty: "RUN UPDATE PROFILE TO LOAD THE PUBLIC CONTRIBUTION CALENDAR",
+          metrics: ["TOTAL", "ACTIVE DAYS", "CURRENT STREAK", "LONGEST STREAK"]
+        };
   const days = data.contributionSummary.weeks.flatMap((week, weekIndex) =>
     week.days.map((day, dayIndex) => ({ ...day, weekIndex, dayIndex }))
   );
@@ -35,24 +55,24 @@ export function renderContributionSwarm(data: GeneratedData, theme: Theme): stri
     .join(" ");
   const hasVerifiedCalendar = activePoints.length > 1;
   const metrics = [
-    ["TOTAL", data.contributionSummary.totalContributions],
-    ["ACTIVE DAYS", data.contributionSummary.activeDays],
-    ["CURRENT STREAK", data.contributionSummary.currentStreak],
-    ["LONGEST STREAK", data.contributionSummary.longestStreak]
+    [copy.metrics[0], data.contributionSummary.totalContributions],
+    [copy.metrics[1], data.contributionSummary.activeDays],
+    [copy.metrics[2], data.contributionSummary.currentStreak],
+    [copy.metrics[3], data.contributionSummary.longestStreak]
   ] as const;
 
-  return `${documentStart(1200, 330, "Agent Swarm Contribution Map", "A GitHub contribution calendar rendered only from verified API data, with a last-known-good fallback.")}
+  return `${documentStart(1200, 330, copy.title, "A GitHub contribution calendar rendered only from verified API data, with a last-known-good fallback.")}
   <defs>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
-      text{font-family:Inter,ui-sans-serif,system-ui,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,monospace}
+      text{font-family:Inter,"Noto Sans SC","Microsoft YaHei",ui-sans-serif,system-ui,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Noto Sans Mono CJK SC",monospace}
       @media (prefers-reduced-motion:reduce){.agent-motion{display:none}}
     </style>
   </defs>
   <rect width="1200" height="330" rx="20" fill="${color.background}"/>
   <rect x="36" y="34" width="1128" height="262" rx="15" fill="${color.surface}" stroke="${color.grid}"/>
-  <text x="68" y="67" fill="${color.text}" font-size="16" font-weight="700">AGENT SWARM CONTRIBUTION MAP</text>
-  <text x="1132" y="67" fill="${hasVerifiedCalendar ? color.green : color.muted}" font-size="11" text-anchor="end" letter-spacing="1.5" class="mono">${hasVerifiedCalendar ? "VERIFIED PUBLIC API DATA" : "VERIFIED DATA REFRESH PENDING"}</text>
+  <text x="68" y="67" fill="${color.text}" font-size="16" font-weight="700">${copy.title}</text>
+  <text x="1132" y="67" fill="${hasVerifiedCalendar ? color.green : color.muted}" font-size="11" text-anchor="end" letter-spacing="${language === "zh-CN" ? 0.5 : 1.5}" class="mono">${hasVerifiedCalendar ? copy.verified : copy.pending}</text>
   ${cells}
   ${
     hasVerifiedCalendar
@@ -64,7 +84,7 @@ export function renderContributionSwarm(data: GeneratedData, theme: Theme): stri
   </circle>`
     )
     .join("\n  ")}`
-      : `<text x="575" y="170" fill="${color.muted}" text-anchor="middle" font-size="13" class="mono">RUN UPDATE-PROFILE TO LOAD THE PUBLIC CONTRIBUTION CALENDAR</text>`
+      : `<text x="575" y="170" fill="${color.muted}" text-anchor="middle" font-size="13" class="mono">${copy.empty}</text>`
   }
   ${metrics
     .map(([label, value], index) => {

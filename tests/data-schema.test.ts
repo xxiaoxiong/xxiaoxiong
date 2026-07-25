@@ -6,7 +6,7 @@ describe("profile data", () => {
   it("validates every human and generated data source", async () => {
     const data = await loadData();
     expect(data.profile.github).toBe("xxiaoxiong");
-    expect(data.projects).toHaveLength(9);
+    expect(data.projects).toHaveLength(11);
     expect(data.capabilities.groups).toHaveLength(6);
     expect(generatedSchema.safeParse(data.generated).success).toBe(true);
   });
@@ -16,6 +16,16 @@ describe("profile data", () => {
     const pins = projects.filter((project) => project.pinRecommendation);
     expect(pins).toHaveLength(6);
     expect(pins.every((project) => project.originality === "original")).toBe(true);
+    expect(
+      pins.sort((a, b) => a.priority - b.priority).map((project) => project.repository)
+    ).toEqual([
+      "xxiaoxiong/3DHomepage",
+      "xxiaoxiong/learn-hermes-agent",
+      "xxiaoxiong/awesome-multi-agent-projects",
+      "xxiaoxiong/MegaDeepagents",
+      "xxiaoxiong/general-agent-frame",
+      "xxiaoxiong/AI-GeneralPlat"
+    ]);
   });
 
   it("does not promote the upstream fork as original work", async () => {

@@ -218,13 +218,15 @@ export async function refreshGitHubData(): Promise<GeneratedData> {
   const octokit = new Octokit({ auth: token });
   const username = "xxiaoxiong";
   const repositories = [
-    "xxiaoxiong/MegaDeepagents",
     "xxiaoxiong/3DHomepage",
+    "xxiaoxiong/learn-hermes-agent",
     "xxiaoxiong/awesome-multi-agent-projects",
+    "xxiaoxiong/MegaDeepagents",
+    "xxiaoxiong/general-agent-frame",
+    "xxiaoxiong/AI-GeneralPlat",
     "xxiaoxiong/AI-Agent-Orchestration",
     "xxiaoxiong/AI-DocReviewer",
     "xxiaoxiong/Deepwiki-Local",
-    "xxiaoxiong/AI-GeneralPlat",
     "xxiaoxiong/AI-ComputerRAG",
     "xxiaoxiong/AI-DatabaseQuery"
   ];

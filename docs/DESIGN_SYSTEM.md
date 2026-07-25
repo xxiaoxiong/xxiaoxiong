@@ -29,9 +29,10 @@ content gutters.
 
 ## Animation
 
-Only two README regions may animate continuously: the Hero and Agent Swarm
-map. Motion is slow, small and nonessential. Static positions remain meaningful
-if GitHub strips animation, and `prefers-reduced-motion` disables it.
+Hero, project showcase, capability orbit and contribution pulse use restrained
+motion. Animation is slow, small and nonessential. Static positions remain
+meaningful if GitHub strips animation, and `prefers-reduced-motion` disables
+CSS motion while preserving the complete visual hierarchy.
 
 ## Responsive behavior
 

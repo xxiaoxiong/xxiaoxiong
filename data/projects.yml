@@ -12,7 +12,7 @@ projects:
     liveUrl: https://megadeepagents.vercel.app
     repositoryUrl: https://github.com/xxiaoxiong/MegaDeepagents
     technologies: [Python, FastAPI, LangGraph, DeepAgents, SQLite, Vue 3]
-    priority: 1
+    priority: 4
     pinRecommendation: true
     originality: original
     readmeQuality: strong
@@ -27,7 +27,7 @@ projects:
       - Publish a short architecture demo with a verified run trace
       - Surface test scope and release history
   - repository: xxiaoxiong/3DHomepage
-    title: NICHOLAS / SPATIAL AI WORLD
+    title: 3DHomepage
     description: A continuous Three.js world used as the information architecture for an engineering portfolio.
     problem: Conventional portfolio grids do not communicate systems thinking or create a memorable exploration path.
     architecture: Next.js shell → persistent React Three Fiber world → camera director → six spatial system zones → accessible HUD and deep links.
@@ -39,7 +39,7 @@ projects:
     liveUrl: https://3-d-homepage.vercel.app/
     repositoryUrl: https://github.com/xxiaoxiong/3DHomepage
     technologies: [Next.js, TypeScript, Three.js, React Three Fiber]
-    priority: 2
+    priority: 1
     pinRecommendation: true
     originality: original
     readmeQuality: strong
@@ -93,8 +93,8 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/AI-Agent-Orchestration
     technologies: [Python, FastAPI, LangGraph, Vue 3, Docker]
-    priority: 4
-    pinRecommendation: true
+    priority: 7
+    pinRecommendation: false
     originality: original
     readmeQuality: good
     hasDemo: false
@@ -119,8 +119,8 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/AI-DocReviewer
     technologies: [Python, FastAPI, RAG, Vector Search]
-    priority: 5
-    pinRecommendation: true
+    priority: 8
+    pinRecommendation: false
     originality: original
     readmeQuality: good
     hasDemo: false
@@ -134,7 +134,7 @@ projects:
       - Replace promotional metrics with a reproducible evaluation dataset
       - Add golden-file tests and failure analysis
   - repository: xxiaoxiong/AI-GeneralPlat
-    title: Enterprise AI General Platform
+    title: AI-GeneralPlat
     description: A broad AI platform prototype covering model access, RAG, workflows, agents and operational controls.
     problem: Enterprise AI capabilities are often fragmented across model gateways, knowledge bases, workflows and administration.
     architecture: Vue platform → FastAPI services → agent and inference layers → MySQL/Redis/vector store → Docker deployment.
@@ -172,7 +172,7 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/AI-ComputerRAG
     technologies: [Python, PyQt6, SQLite FTS5, BGE, USearch]
-    priority: 7
+    priority: 9
     pinRecommendation: false
     originality: original
     readmeQuality: adequate
@@ -198,7 +198,7 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/AI-DatabaseQuery
     technologies: [React, TypeScript, FastAPI, SQLAlchemy, ECharts]
-    priority: 8
+    priority: 10
     pinRecommendation: false
     originality: original
     readmeQuality: needs-work
@@ -224,7 +224,7 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/Deepwiki-Local
     technologies: [Next.js, React, TypeScript, RAG, Docker]
-    priority: 9
+    priority: 11
     pinRecommendation: false
     originality: fork
     readmeQuality: upstream
@@ -238,3 +238,57 @@ projects:
     improvements:
       - Add a fork-delta document and local deployment evidence
       - Keep it unpinned unless the adaptation becomes a distinct maintained product
+  - repository: xxiaoxiong/learn-hermes-agent
+    title: Learn Hermes Agent
+    description: A structured teaching companion covering the 24 core mechanisms of Hermes Agent.
+    problem: Hermes Agent's production architecture spans agent loops, tools, memory, skills, profiles, multi-agent coordination and durable delivery, which is difficult to learn directly from a large codebase.
+    architecture: 24 progressive chapters → runnable minimal implementations → curated source explanations → current production architecture.
+    evidence:
+      - 24 chapters aligned with Hermes Agent v0.19.0
+      - Runnable minimal implementations for the first six mechanisms
+      - Coverage of memory, skills, security, profiles, multi-agent Kanban and durable delivery
+      - Chinese and English learning paths
+    liveUrl: null
+    repositoryUrl: https://github.com/xxiaoxiong/learn-hermes-agent
+    technologies: [TypeScript, Python, Hermes Agent, OpenAI SDK]
+    priority: 2
+    pinRecommendation: true
+    originality: original
+    readmeQuality: strong
+    hasDemo: false
+    hasTests: true
+    hasCI: false
+    license: Repository documentation should expose the root license clearly
+    issues:
+      - Add a visible CI workflow and status
+      - Keep version alignment explicit when Hermes Agent releases change
+    improvements:
+      - Add a chapter progress map and runnable verification matrix
+      - Publish short visual walkthroughs for representative mechanisms
+  - repository: xxiaoxiong/general-agent-frame
+    title: General Agent Frame
+    description: A stable, compact general-purpose agent runtime built on native DeepAgents capabilities.
+    problem: General agent foundations often duplicate framework execution logic and accumulate unstable self-evolution features before the core task loop is reliable.
+    architecture: FastAPI or CLI → TaskService and TaskRunner → DeepAgents create_deep_agent → workspace, memory, skills, permissions and SQLite.
+    evidence:
+      - FastAPI and CLI task interfaces
+      - Multi-session threads, workspace files, memory and static skills
+      - Sensitive-file denial and optional human approval
+      - Explicitly reduced unstable streaming and self-evolution paths
+    liveUrl: null
+    repositoryUrl: https://github.com/xxiaoxiong/general-agent-frame
+    technologies: [Python, DeepAgents, FastAPI, SQLite]
+    priority: 5
+    pinRecommendation: true
+    originality: original
+    readmeQuality: strong
+    hasDemo: false
+    hasTests: true
+    hasCI: false
+    license: MIT
+    issues:
+      - Add a visible CI workflow and status
+      - Web and MCP tools remain intentionally disabled placeholders
+    improvements:
+      - Publish a minimal end-to-end run trace
+      - Add deployment and permission-policy examples

@@ -58,7 +58,10 @@ describe("SVG renderers", () => {
     const swarm = renderContributionSwarm(generated, "dark");
     expect(swarm).toContain("<title");
     expect(swarm).toContain("<desc");
-    expect(swarm).toContain("VERIFIED DATA REFRESH PENDING");
+    expect(swarm).toContain("等待首次公共数据刷新");
+    expect(renderContributionSwarm(generated, "dark", "en")).toContain(
+      "VERIFIED DATA REFRESH PENDING"
+    );
     expect(swarm).not.toMatch(/\b(undefined|null|NaN)\b/);
   });
 });
