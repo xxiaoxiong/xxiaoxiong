@@ -56,11 +56,18 @@ describe("SVG renderers", () => {
     const { generated } = await loadData();
     expect(renderHero("dark")).toBe(renderHero("dark"));
     const swarm = renderContributionSwarm(generated, "dark");
+    const englishSwarm = renderContributionSwarm(generated, "dark", "en");
+    const activeDays = generated.contributionSummary.weeks
+      .flatMap((week) => week.days)
+      .filter((day) => day.count > 0).length;
+    const hasVerifiedCalendar = activeDays > 1;
     expect(swarm).toContain("<title");
     expect(swarm).toContain("<desc");
-    expect(swarm).toContain("等待首次公共数据刷新");
-    expect(renderContributionSwarm(generated, "dark", "en")).toContain(
-      "VERIFIED DATA REFRESH PENDING"
+    expect(swarm).toContain(
+      hasVerifiedCalendar ? "已验证的 GitHub 公共数据" : "等待首次公共数据刷新"
+    );
+    expect(englishSwarm).toContain(
+      hasVerifiedCalendar ? "VERIFIED PUBLIC API DATA" : "VERIFIED DATA REFRESH PENDING"
     );
     expect(swarm).not.toMatch(/\b(undefined|null|NaN)\b/);
   });
