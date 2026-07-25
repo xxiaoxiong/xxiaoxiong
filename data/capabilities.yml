@@ -1,0 +1,37 @@
+groups:
+  - name: Agent Systems
+    evidence:
+      - LangGraph root graphs and durable state
+      - TaskGraph and transactional TaskBoard
+      - Parallel scheduling and stable agent sessions
+      - Tool policy, human approval, verification and repair
+  - name: AI Infrastructure
+    evidence:
+      - vLLM and OpenAI-compatible model endpoints
+      - LiteLLM gateway and request governance
+      - Docker-based local and server deployment
+      - Prometheus and Grafana observability
+  - name: Knowledge Systems
+    evidence:
+      - RAG retrieval and document review pipelines
+      - Hybrid full-text and vector search
+      - Structured knowledge and memory workflows
+      - Evidence-aware output and failure fallback
+  - name: Backend and Platform
+    evidence:
+      - Python, FastAPI and asynchronous services
+      - SQLite, PostgreSQL, MySQL and Alembic
+      - SSE streaming and replayable event envelopes
+      - API contracts, health checks and access control
+  - name: Product and Experience
+    evidence:
+      - Vue 3 and TypeScript control surfaces
+      - Next.js and Three.js spatial portfolio
+      - Bilingual technical information architecture
+      - Responsive and accessible interaction design
+  - name: Engineering Quality
+    evidence:
+      - Fail-closed verification and explicit invariants
+      - Unit, integration and generator tests
+      - CI, deterministic generation and cached fallback
+      - Documentation, deployment boundaries and licenses

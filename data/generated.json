@@ -1,0 +1,98 @@
+{
+  "generatedAt": "2026-07-25T03:23:00.000Z",
+  "source": {
+    "provider": "GitHub API",
+    "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
+    "cachePolicy": "last-known-good"
+  },
+  "recentMergedPullRequests": [
+    {
+      "repository": "ZhuLinsen/daily_stock_analysis",
+      "number": 2048,
+      "title": "feat: 支持 TUSHARE_HTTP_URL 自定义 Tushare Pro 接入地址",
+      "category": "Finance",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2048",
+      "state": "MERGED"
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "number": 5826,
+      "title": "fix(i18n): localize BYOK provider titles to English",
+      "category": "Frontend",
+      "url": "https://github.com/nexu-io/open-design/pull/5826",
+      "state": "MERGED"
+    },
+    {
+      "repository": "ZhuLinsen/daily_stock_analysis",
+      "number": 2049,
+      "title": "fix: 外股代码映射到中文显示名时英文新闻相关性漏判",
+      "category": "Finance",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2049",
+      "state": "MERGED"
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "number": 5760,
+      "title": "fix(media): drop response_format for gpt-image-* on image edits",
+      "category": "AI Gateway",
+      "url": "https://github.com/nexu-io/open-design/pull/5760",
+      "state": "MERGED"
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "number": 5454,
+      "title": "fix(web): solid background for browser extraction error toast",
+      "category": "Frontend",
+      "url": "https://github.com/nexu-io/open-design/pull/5454",
+      "state": "MERGED"
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "number": 5145,
+      "title": "fix(daemon): filter transient ACP status events at persistence time",
+      "category": "Infrastructure",
+      "url": "https://github.com/nexu-io/open-design/pull/5145",
+      "state": "MERGED"
+    }
+  ],
+  "contributionSummary": {
+    "totalContributions": null,
+    "activeDays": null,
+    "currentStreak": null,
+    "longestStreak": null,
+    "weeks": []
+  },
+  "repositorySummary": [
+    {
+      "repository": "xxiaoxiong/MegaDeepagents",
+      "defaultBranch": "main",
+      "isFork": false,
+      "license": null,
+      "hasReadme": true,
+      "hasCI": false,
+      "hasDemo": true
+    },
+    {
+      "repository": "xxiaoxiong/3DHomepage",
+      "defaultBranch": "main",
+      "isFork": false,
+      "license": "MIT",
+      "hasReadme": true,
+      "hasCI": false,
+      "hasDemo": true
+    },
+    {
+      "repository": "xxiaoxiong/awesome-multi-agent-projects",
+      "defaultBranch": "main",
+      "isFork": false,
+      "license": "CC0-1.0",
+      "hasReadme": true,
+      "hasCI": true,
+      "hasDemo": true
+    }
+  ],
+  "previousSuccessfulGeneration": {
+    "generatedAt": "2026-07-25T03:23:00.000Z",
+    "recordCount": 6
+  }
+}
