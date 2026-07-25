@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "23 3 * * *"
 
+permissions:
+  contents: write
+
 concurrency:
   group: update-profile
   cancel-in-progress: false
@@ -13,20 +16,23 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    permissions:
-      contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: true
       - name: Set up pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v4.4.0
         with:
           version: 11.7.0
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: "22.x"
+          check-latest: true
           cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: Refresh verified GitHub data
@@ -40,12 +46,12 @@ jobs:
       - name: Commit changed evidence
         shell: bash
         run: |
-          if git diff --quiet; then
-            echo "No profile changes."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md README.en.md data/generated.json assets/generated
+          if git diff --cached --quiet; then
+            echo "No profile changes."
+            exit 0
+          fi
           git commit -m "chore(profile): refresh generated assets"
-          git push
+          git push origin HEAD:main
