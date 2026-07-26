@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-07-25T10:37:10.329Z",
+  "generatedAt": "2026-07-26T06:17:55.842Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "ZhuLinsen/daily_stock_analysis",
+      "number": 2097,
+      "title": "fix: 修复 YfinanceFetcher 4-5 位裸港股码路由到 .SZ 的 bug（fixes #2091）",
+      "category": "Finance",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2097",
+      "state": "MERGED",
+      "mergedAt": "2026-07-26T03:20:13Z"
+    },
+    {
+      "repository": "ZhuLinsen/daily_stock_analysis",
+      "number": 2096,
+      "title": "fix: ai_review 对事件载荷读取/解析失败输出可定位警告（fixes #2070）",
+      "category": "Engineering",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2096",
+      "state": "MERGED",
+      "mergedAt": "2026-07-25T12:34:35Z"
+    },
     {
       "repository": "ZhuLinsen/daily_stock_analysis",
       "number": 2048,
@@ -41,71 +59,14 @@
       "url": "https://github.com/nexu-io/open-design/pull/5760",
       "state": "MERGED",
       "mergedAt": "2026-07-17T11:18:36Z"
-    },
-    {
-      "repository": "nexu-io/open-design",
-      "number": 5454,
-      "title": "fix(web): solid background for browser extraction error toast (#5413)",
-      "category": "Frontend",
-      "url": "https://github.com/nexu-io/open-design/pull/5454",
-      "state": "MERGED",
-      "mergedAt": "2026-07-17T10:04:03Z"
-    },
-    {
-      "repository": "nexu-io/open-design",
-      "number": 5145,
-      "title": "fix(daemon): filter transient ACP status events at persistence time (#4618)",
-      "category": "Infrastructure",
-      "url": "https://github.com/nexu-io/open-design/pull/5145",
-      "state": "MERGED",
-      "mergedAt": "2026-07-17T09:40:29Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 908,
-    "activeDays": 90,
-    "currentStreak": 18,
+    "totalContributions": 916,
+    "activeDays": 91,
+    "currentStreak": 19,
     "longestStreak": 36,
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-07-20",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-07-21",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-07-22",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-07-23",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-07-24",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-07-25",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-07-26",
-            "count": 0,
-            "level": "NONE"
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -2129,8 +2090,17 @@
           },
           {
             "date": "2026-07-25",
-            "count": 28,
+            "count": 31,
             "level": "FOURTH_QUARTILE"
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-07-26",
+            "count": 5,
+            "level": "FIRST_QUARTILE"
           }
         ]
       }
@@ -2238,7 +2208,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-07-25T10:37:10.329Z",
+    "generatedAt": "2026-07-26T06:17:55.842Z",
     "recordCount": 6
   }
 }

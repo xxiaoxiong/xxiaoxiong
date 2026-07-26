@@ -47,10 +47,10 @@
 
 | Repository / PR | Contribution | Field |
 |---|---|---|
+| [ZhuLinsen/daily_stock_analysis #2097](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2097) | fix: 修复 YfinanceFetcher 4-5 位裸港股码路由到 .SZ 的 bug（fixes #2091） | Finance |
+| [ZhuLinsen/daily_stock_analysis #2096](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2096) | fix: ai_review 对事件载荷读取/解析失败输出可定位警告（fixes #2070） | Engineering |
 | [ZhuLinsen/daily_stock_analysis #2048](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2048) | feat: 支持 TUSHARE_HTTP_URL 自定义 Tushare Pro 接入地址 | Finance |
 | [nexu-io/open-design #5826](https://github.com/nexu-io/open-design/pull/5826) | fix(i18n): localize BYOK provider titles to English | Frontend |
-| [ZhuLinsen/daily_stock_analysis #2049](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2049) | fix: 外股代码映射到中文显示名时英文新闻相关性漏判（issue #2026，PR #2047 关闭重做） | Finance |
-| [nexu-io/open-design #5760](https://github.com/nexu-io/open-design/pull/5760) | fix(media): drop response_format for gpt-image-* on /v1/images/edits (#5727) | Engineering |
 
 </details>
 
