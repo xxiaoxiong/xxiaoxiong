@@ -3,14 +3,24 @@
 {{HERO}}
 
 <p align="center">
-  <a href="https://3-d-homepage.vercel.app/"><strong>🌐 Enter the 3D AI World</strong></a>
+  <a href="https://github.com/xxiaoxiong/awesome-multi-agent-projects"><strong>🧭 Explore the Multi-Agent Atlas</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/xxiaoxiong?tab=repositories"><strong>🧩 Browse All Projects</strong></a>
+  <a href="https://github.com/xxiaoxiong/MegaDeepagents"><strong>⚙️ View the Flagship Runtime</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Axxiaoxiong"><strong>⚡ Open-Source Work</strong></a>
+  <a href="https://3-d-homepage.vercel.app/"><strong>🌐 Enter the 3D Portfolio</strong></a>
 </p>
 
-## Core Projects
+## Start Here
+
+| Your goal | Recommended entry | What you will find |
+|---|---|---|
+| **Discover multi-agent projects and compare approaches** | [Awesome Multi-Agent Projects](https://github.com/xxiaoxiong/awesome-multi-agent-projects) | A bilingual, domain-first atlas of open-source multi-agent systems |
+| **Evaluate my engineering depth** | [MegaDeepagents](https://github.com/xxiaoxiong/MegaDeepagents) | A governed, recoverable, and verifiable multi-agent task runtime |
+| **Explore my work quickly** | [3DHomepage](https://github.com/xxiaoxiong/3DHomepage) | An interactive 3D portfolio of AI engineering projects |
+
+> If one of these projects helps you, a Star on its repository is appreciated. Issues, usage feedback, and improvement ideas are welcome too.
+
+## Core Projects · Complete Map
 
 {{PROJECTS_VISUAL}}
 
