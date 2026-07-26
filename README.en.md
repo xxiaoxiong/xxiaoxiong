@@ -24,7 +24,7 @@
 
 > If one of these projects helps you, a Star on its repository is appreciated. Issues, usage feedback, and improvement ideas are welcome too.
 
-## Complete Project Map
+## Core Projects · Complete Map
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/project-showcase-en-dark.svg">
