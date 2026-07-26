@@ -3,14 +3,24 @@
 {{HERO}}
 
 <p align="center">
-  <a href="https://3-d-homepage.vercel.app/"><strong>🌐 进入 3D AI 世界</strong></a>
+  <a href="https://github.com/xxiaoxiong/awesome-multi-agent-projects"><strong>🧭 浏览多智能体图谱</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/xxiaoxiong?tab=repositories"><strong>🧩 浏览全部项目</strong></a>
+  <a href="https://github.com/xxiaoxiong/MegaDeepagents"><strong>⚙️ 查看旗舰运行时</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Axxiaoxiong"><strong>⚡ 查看开源贡献</strong></a>
+  <a href="https://3-d-homepage.vercel.app/"><strong>🌐 进入 3D 作品集</strong></a>
 </p>
 
-## 核心项目
+## 从这里开始
+
+| 你的目标 | 推荐入口 | 你会看到什么 |
+|---|---|---|
+| **发现多智能体项目与技术选型** | [Awesome Multi-Agent Projects](https://github.com/xxiaoxiong/awesome-multi-agent-projects) | 双语、按场景分类的多智能体开源项目图谱 |
+| **评估我的工程深度** | [MegaDeepagents](https://github.com/xxiaoxiong/MegaDeepagents) | 可治理、可恢复、可验证的多智能体任务运行时 |
+| **快速了解我的作品** | [3DHomepage](https://github.com/xxiaoxiong/3DHomepage) | 可交互的 3D AI 工程作品集 |
+
+> 如果其中一个项目对你有帮助，欢迎在对应仓库点一个 Star；问题、使用反馈和改进建议也非常欢迎。
+
+## 完整项目矩阵
 
 {{PROJECTS_VISUAL}}
 
