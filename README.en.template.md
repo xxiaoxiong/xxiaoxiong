@@ -20,7 +20,7 @@
 
 > If one of these projects helps you, a Star on its repository is appreciated. Issues, usage feedback, and improvement ideas are welcome too.
 
-## Complete Project Map
+## Core Projects · Complete Map
 
 {{PROJECTS_VISUAL}}
 
