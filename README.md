@@ -24,7 +24,7 @@
 
 > 如果其中一个项目对你有帮助，欢迎在对应仓库点一个 Star；问题、使用反馈和改进建议也非常欢迎。
 
-## 完整项目矩阵
+## 核心项目 · 完整矩阵
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/project-showcase-dark.svg">
