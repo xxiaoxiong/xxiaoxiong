@@ -378,22 +378,23 @@
   <rect x="1041" y="206" width="13" height="13" rx="3" fill="#80FFB2" opacity="1"><title>2026-07-25: 30 contributions</title></rect>
   <rect x="1060" y="92" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.72"><title>2026-07-26: 23 contributions</title></rect>
   <rect x="1060" y="111" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.3"><title>2026-07-27: 2 contributions</title></rect>
-  <polyline id="route" points="1009.5,193.5 1009.5,212.5 1028.5,98.5 1028.5,117.5 1028.5,136.5 1028.5,155.5 1028.5,174.5 1028.5,193.5 1028.5,212.5 1047.5,98.5 1047.5,117.5 1047.5,136.5 1047.5,155.5 1047.5,174.5 1047.5,193.5 1047.5,212.5 1066.5,98.5 1066.5,117.5" fill="none" stroke="#3DE1FF" stroke-width="1.2" opacity="0.35"/>
-  <circle cx="1066.5" cy="117.5" r="4" fill="#3DE1FF" filter="url(#glow)" class="agent-motion">
-    <animateMotion dur="8s" begin="-0s" repeatCount="indefinite" path="M1009.5,193.5 L1009.5,212.5 L1028.5,98.5 L1028.5,117.5 L1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5"/>
+  <rect x="1060" y="130" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.3"><title>2026-07-28: 1 contributions</title></rect>
+  <polyline id="route" points="1009.5,212.5 1028.5,98.5 1028.5,117.5 1028.5,136.5 1028.5,155.5 1028.5,174.5 1028.5,193.5 1028.5,212.5 1047.5,98.5 1047.5,117.5 1047.5,136.5 1047.5,155.5 1047.5,174.5 1047.5,193.5 1047.5,212.5 1066.5,98.5 1066.5,117.5 1066.5,136.5" fill="none" stroke="#3DE1FF" stroke-width="1.2" opacity="0.35"/>
+  <circle cx="1066.5" cy="136.5" r="4" fill="#3DE1FF" filter="url(#glow)" class="agent-motion">
+    <animateMotion dur="8s" begin="-0s" repeatCount="indefinite" path="M1009.5,212.5 L1028.5,98.5 L1028.5,117.5 L1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5"/>
   </circle>
-  <circle cx="1066.5" cy="117.5" r="3" fill="#8B5CF6" filter="url(#glow)" class="agent-motion">
-    <animateMotion dur="10s" begin="-2s" repeatCount="indefinite" path="M1009.5,193.5 L1009.5,212.5 L1028.5,98.5 L1028.5,117.5 L1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5"/>
+  <circle cx="1066.5" cy="136.5" r="3" fill="#8B5CF6" filter="url(#glow)" class="agent-motion">
+    <animateMotion dur="10s" begin="-2s" repeatCount="indefinite" path="M1009.5,212.5 L1028.5,98.5 L1028.5,117.5 L1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5"/>
   </circle>
-  <circle cx="1066.5" cy="117.5" r="3" fill="#3DE1FF" filter="url(#glow)" class="agent-motion">
-    <animateMotion dur="12s" begin="-4s" repeatCount="indefinite" path="M1009.5,193.5 L1009.5,212.5 L1028.5,98.5 L1028.5,117.5 L1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5"/>
+  <circle cx="1066.5" cy="136.5" r="3" fill="#3DE1FF" filter="url(#glow)" class="agent-motion">
+    <animateMotion dur="12s" begin="-4s" repeatCount="indefinite" path="M1009.5,212.5 L1028.5,98.5 L1028.5,117.5 L1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5"/>
   </circle>
   <text x="80" y="270" fill="#8491A5" font-size="10" letter-spacing="1.2" class="mono">总贡献</text>
-  <text x="198" y="270" fill="#E7EDF7" font-size="13" text-anchor="end" class="mono">935</text>
+  <text x="198" y="270" fill="#E7EDF7" font-size="13" text-anchor="end" class="mono">936</text>
   <text x="358" y="270" fill="#8491A5" font-size="10" letter-spacing="1.2" class="mono">活跃天数</text>
-  <text x="476" y="270" fill="#E7EDF7" font-size="13" text-anchor="end" class="mono">92</text>
+  <text x="476" y="270" fill="#E7EDF7" font-size="13" text-anchor="end" class="mono">93</text>
   <text x="636" y="270" fill="#8491A5" font-size="10" letter-spacing="1.2" class="mono">当前连续</text>
-  <text x="754" y="270" fill="#E7EDF7" font-size="13" text-anchor="end" class="mono">20</text>
+  <text x="754" y="270" fill="#E7EDF7" font-size="13" text-anchor="end" class="mono">21</text>
   <text x="914" y="270" fill="#8491A5" font-size="10" letter-spacing="1.2" class="mono">最长连续</text>
   <text x="1032" y="270" fill="#E7EDF7" font-size="13" text-anchor="end" class="mono">36</text>
 </svg>
