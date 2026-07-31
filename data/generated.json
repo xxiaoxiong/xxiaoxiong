@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-07-30T06:01:47.303Z",
+  "generatedAt": "2026-07-31T06:26:54.456Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "nexu-io/open-design",
+      "number": 5825,
+      "title": "fix(ui): improve dark-mode contrast for off-state toggles",
+      "category": "Frontend",
+      "url": "https://github.com/nexu-io/open-design/pull/5825",
+      "state": "MERGED",
+      "mergedAt": "2026-07-31T03:05:42Z"
+    },
+    {
+      "repository": "ZhuLinsen/daily_stock_analysis",
+      "number": 2118,
+      "title": "fix: redact short credentials in CLI diagnostics",
+      "category": "Engineering",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2118",
+      "state": "MERGED",
+      "mergedAt": "2026-07-30T14:49:55Z"
+    },
     {
       "repository": "ZhuLinsen/daily_stock_analysis",
       "number": 2097,
@@ -41,30 +59,12 @@
       "url": "https://github.com/nexu-io/open-design/pull/5826",
       "state": "MERGED",
       "mergedAt": "2026-07-22T06:37:13Z"
-    },
-    {
-      "repository": "ZhuLinsen/daily_stock_analysis",
-      "number": 2049,
-      "title": "fix: 外股代码映射到中文显示名时英文新闻相关性漏判（issue #2026，PR #2047 关闭重做）",
-      "category": "Finance",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2049",
-      "state": "MERGED",
-      "mergedAt": "2026-07-20T13:55:30Z"
-    },
-    {
-      "repository": "nexu-io/open-design",
-      "number": 5760,
-      "title": "fix(media): drop response_format for gpt-image-* on /v1/images/edits (#5727)",
-      "category": "Engineering",
-      "url": "https://github.com/nexu-io/open-design/pull/5760",
-      "state": "MERGED",
-      "mergedAt": "2026-07-17T11:18:36Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 963,
-    "activeDays": 95,
-    "currentStreak": 23,
+    "totalContributions": 965,
+    "activeDays": 96,
+    "currentStreak": 24,
     "longestStreak": 36,
     "weeks": [
       {
@@ -2119,7 +2119,12 @@
           },
           {
             "date": "2026-07-30",
-            "count": 2,
+            "count": 3,
+            "level": "FIRST_QUARTILE"
+          },
+          {
+            "date": "2026-07-31",
+            "count": 1,
             "level": "FIRST_QUARTILE"
           }
         ]
@@ -2228,7 +2233,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-07-30T06:01:47.303Z",
+    "generatedAt": "2026-07-31T06:26:54.456Z",
     "recordCount": 6
   }
 }

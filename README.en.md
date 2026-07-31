@@ -57,10 +57,10 @@
 
 | Repository / PR | Contribution | Field |
 |---|---|---|
+| [nexu-io/open-design #5825](https://github.com/nexu-io/open-design/pull/5825) | fix(ui): improve dark-mode contrast for off-state toggles | Frontend |
+| [ZhuLinsen/daily_stock_analysis #2118](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2118) | fix: redact short credentials in CLI diagnostics | Engineering |
 | [ZhuLinsen/daily_stock_analysis #2097](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2097) | fix: 修复 YfinanceFetcher 4-5 位裸港股码路由到 .SZ 的 bug（fixes #2091） | Finance |
 | [ZhuLinsen/daily_stock_analysis #2096](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2096) | fix: ai_review 对事件载荷读取/解析失败输出可定位警告（fixes #2070） | Engineering |
-| [ZhuLinsen/daily_stock_analysis #2048](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2048) | feat: 支持 TUSHARE_HTTP_URL 自定义 Tushare Pro 接入地址 | Finance |
-| [nexu-io/open-design #5826](https://github.com/nexu-io/open-design/pull/5826) | fix(i18n): localize BYOK provider titles to English | Frontend |
 
 </details>
 
