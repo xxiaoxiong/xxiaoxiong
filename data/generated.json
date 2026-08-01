@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-07-31T06:26:54.456Z",
+  "generatedAt": "2026-08-01T06:11:16.389Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "ZhuLinsen/daily_stock_analysis",
+      "number": 2109,
+      "title": "fix(longbridge): 修正 history_candlesticks_by_offset 位置参数顺序，导致 volume_ratio 静默失败 (fixes #2100)",
+      "category": "Engineering",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2109",
+      "state": "MERGED",
+      "mergedAt": "2026-07-31T11:59:32Z"
+    },
     {
       "repository": "nexu-io/open-design",
       "number": 5825,
@@ -50,21 +59,12 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2048",
       "state": "MERGED",
       "mergedAt": "2026-07-22T12:54:40Z"
-    },
-    {
-      "repository": "nexu-io/open-design",
-      "number": 5826,
-      "title": "fix(i18n): localize BYOK provider titles to English",
-      "category": "Frontend",
-      "url": "https://github.com/nexu-io/open-design/pull/5826",
-      "state": "MERGED",
-      "mergedAt": "2026-07-22T06:37:13Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 965,
-    "activeDays": 96,
-    "currentStreak": 24,
+    "totalContributions": 977,
+    "activeDays": 97,
+    "currentStreak": 25,
     "longestStreak": 36,
     "weeks": [
       {
@@ -2124,7 +2124,12 @@
           },
           {
             "date": "2026-07-31",
-            "count": 1,
+            "count": 11,
+            "level": "SECOND_QUARTILE"
+          },
+          {
+            "date": "2026-08-01",
+            "count": 2,
             "level": "FIRST_QUARTILE"
           }
         ]
@@ -2233,7 +2238,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-07-31T06:26:54.456Z",
+    "generatedAt": "2026-08-01T06:11:16.389Z",
     "recordCount": 6
   }
 }
