@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-08-01T06:11:16.389Z",
+  "generatedAt": "2026-08-02T06:14:59.811Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "ZhuLinsen/daily_stock_analysis",
+      "number": 2140,
+      "title": "ci(#2131): 给 backend-gate offline pytest 加 --timeout=120 + faulthandler_timeout=300 watchdog",
+      "category": "Testing",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2140",
+      "state": "MERGED",
+      "mergedAt": "2026-08-01T14:41:41Z"
+    },
+    {
+      "repository": "ZhuLinsen/daily_stock_analysis",
+      "number": 2050,
+      "title": "fix(#1970): 关闭认证强制要求当前管理员密码二次确认",
+      "category": "Engineering",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2050",
+      "state": "MERGED",
+      "mergedAt": "2026-08-01T06:33:39Z"
+    },
     {
       "repository": "ZhuLinsen/daily_stock_analysis",
       "number": 2109,
@@ -41,71 +59,14 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2097",
       "state": "MERGED",
       "mergedAt": "2026-07-26T03:20:13Z"
-    },
-    {
-      "repository": "ZhuLinsen/daily_stock_analysis",
-      "number": 2096,
-      "title": "fix: ai_review 对事件载荷读取/解析失败输出可定位警告（fixes #2070）",
-      "category": "Engineering",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2096",
-      "state": "MERGED",
-      "mergedAt": "2026-07-25T12:34:35Z"
-    },
-    {
-      "repository": "ZhuLinsen/daily_stock_analysis",
-      "number": 2048,
-      "title": "feat: 支持 TUSHARE_HTTP_URL 自定义 Tushare Pro 接入地址",
-      "category": "Finance",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2048",
-      "state": "MERGED",
-      "mergedAt": "2026-07-22T12:54:40Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 977,
+    "totalContributions": 984,
     "activeDays": 97,
     "currentStreak": 25,
     "longestStreak": 36,
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-07-27",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-07-28",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-07-29",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-07-30",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-07-31",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-01",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-02",
-            "count": 0,
-            "level": "NONE"
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -2129,8 +2090,17 @@
           },
           {
             "date": "2026-08-01",
-            "count": 2,
+            "count": 9,
             "level": "FIRST_QUARTILE"
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-08-02",
+            "count": 0,
+            "level": "NONE"
           }
         ]
       }
@@ -2238,7 +2208,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-08-01T06:11:16.389Z",
+    "generatedAt": "2026-08-02T06:14:59.811Z",
     "recordCount": 6
   }
 }
