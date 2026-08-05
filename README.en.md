@@ -57,10 +57,10 @@
 
 | Repository / PR | Contribution | Field |
 |---|---|---|
+| [ZhuLinsen/daily_stock_analysis #2129](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2129) | fix: close #2122 explicit-suffix reject review blockers (OR-COR-607f1395 / OR-COR-26596201 / OR-COR-d6afd0d6) | Engineering |
 | [ZhuLinsen/daily_stock_analysis #2140](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2140) | ci(#2131): 给 backend-gate offline pytest 加 --timeout=120 + faulthandler_timeout=300 watchdog | Testing |
 | [ZhuLinsen/daily_stock_analysis #2050](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2050) | fix(#1970): 关闭认证强制要求当前管理员密码二次确认 | Engineering |
 | [ZhuLinsen/daily_stock_analysis #2109](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2109) | fix(longbridge): 修正 history_candlesticks_by_offset 位置参数顺序，导致 volume_ratio 静默失败 (fixes #2100) | Engineering |
-| [nexu-io/open-design #5825](https://github.com/nexu-io/open-design/pull/5825) | fix(ui): improve dark-mode contrast for off-state toggles | Frontend |
 
 </details>
 
