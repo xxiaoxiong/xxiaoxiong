@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-08-05T06:03:49.662Z",
+  "generatedAt": "2026-08-06T06:07:31.694Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "number": 17972,
+      "title": "fix(web-search): guard query type in WebSearchTool and normalizeWebSearchKeywords; fix translation button contrast",
+      "category": "Frontend",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/17972",
+      "state": "MERGED",
+      "mergedAt": "2026-08-06T05:45:50Z"
+    },
     {
       "repository": "ZhuLinsen/daily_stock_analysis",
       "number": 2129,
@@ -50,21 +59,12 @@
       "url": "https://github.com/nexu-io/open-design/pull/5825",
       "state": "MERGED",
       "mergedAt": "2026-07-31T03:05:42Z"
-    },
-    {
-      "repository": "ZhuLinsen/daily_stock_analysis",
-      "number": 2118,
-      "title": "fix: redact short credentials in CLI diagnostics",
-      "category": "Engineering",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2118",
-      "state": "MERGED",
-      "mergedAt": "2026-07-30T14:49:55Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 997,
-    "activeDays": 101,
-    "currentStreak": 29,
+    "totalContributions": 1044,
+    "activeDays": 102,
+    "currentStreak": 30,
     "longestStreak": 36,
     "weeks": [
       {
@@ -2114,8 +2114,13 @@
           },
           {
             "date": "2026-08-05",
-            "count": 1,
-            "level": "FIRST_QUARTILE"
+            "count": 11,
+            "level": "SECOND_QUARTILE"
+          },
+          {
+            "date": "2026-08-06",
+            "count": 37,
+            "level": "FOURTH_QUARTILE"
           }
         ]
       }
@@ -2223,7 +2228,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-08-05T06:03:49.662Z",
+    "generatedAt": "2026-08-06T06:07:31.694Z",
     "recordCount": 6
   }
 }
