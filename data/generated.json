@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-08-07T05:06:11.055Z",
+  "generatedAt": "2026-08-08T04:31:29.726Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "number": 18117,
+      "title": "fix(backup): skip EBUSY locked files (LevelDB LOCK) during automatic backup",
+      "category": "Engineering",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/18117",
+      "state": "MERGED",
+      "mergedAt": "2026-08-07T14:10:39Z"
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "number": 6314,
+      "title": "fix(web): 让长演讲者备注在 presenter 视图里滚动而非裁切 (#6271)",
+      "category": "Frontend",
+      "url": "https://github.com/nexu-io/open-design/pull/6314",
+      "state": "MERGED",
+      "mergedAt": "2026-08-07T08:01:44Z"
+    },
     {
       "repository": "CherryHQ/cherry-studio",
       "number": 17972,
@@ -41,30 +59,12 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2050",
       "state": "MERGED",
       "mergedAt": "2026-08-01T06:33:39Z"
-    },
-    {
-      "repository": "ZhuLinsen/daily_stock_analysis",
-      "number": 2109,
-      "title": "fix(longbridge): 修正 history_candlesticks_by_offset 位置参数顺序，导致 volume_ratio 静默失败 (fixes #2100)",
-      "category": "Engineering",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2109",
-      "state": "MERGED",
-      "mergedAt": "2026-07-31T11:59:32Z"
-    },
-    {
-      "repository": "nexu-io/open-design",
-      "number": 5825,
-      "title": "fix(ui): improve dark-mode contrast for off-state toggles",
-      "category": "Frontend",
-      "url": "https://github.com/nexu-io/open-design/pull/5825",
-      "state": "MERGED",
-      "mergedAt": "2026-07-31T03:05:42Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1107,
-    "activeDays": 103,
-    "currentStreak": 31,
+    "totalContributions": 1137,
+    "activeDays": 104,
+    "currentStreak": 32,
     "longestStreak": 36,
     "weeks": [
       {
@@ -2124,7 +2124,12 @@
           },
           {
             "date": "2026-08-07",
-            "count": 13,
+            "count": 41,
+            "level": "SECOND_QUARTILE"
+          },
+          {
+            "date": "2026-08-08",
+            "count": 2,
             "level": "FIRST_QUARTILE"
           }
         ]
@@ -2233,7 +2238,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-08-07T05:06:11.055Z",
+    "generatedAt": "2026-08-08T04:31:29.726Z",
     "recordCount": 6
   }
 }

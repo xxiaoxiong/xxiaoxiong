@@ -381,23 +381,24 @@
   <rect x="1060" y="130" width="13" height="13" rx="3" fill="#16834B" opacity="0.3"><title>2026-08-04: 1 contributions</title></rect>
   <rect x="1060" y="149" width="13" height="13" rx="3" fill="#16834B" opacity="0.3"><title>2026-08-05: 11 contributions</title></rect>
   <rect x="1060" y="168" width="13" height="13" rx="3" fill="#16834B" opacity="1"><title>2026-08-06: 87 contributions</title></rect>
-  <rect x="1060" y="187" width="13" height="13" rx="3" fill="#16834B" opacity="0.3"><title>2026-08-07: 13 contributions</title></rect>
-  <polyline id="route" points="1028.5,136.5 1028.5,155.5 1028.5,174.5 1028.5,193.5 1028.5,212.5 1047.5,98.5 1047.5,117.5 1047.5,136.5 1047.5,155.5 1047.5,174.5 1047.5,193.5 1047.5,212.5 1066.5,98.5 1066.5,117.5 1066.5,136.5 1066.5,155.5 1066.5,174.5 1066.5,193.5" fill="none" stroke="#007C99" stroke-width="1.2" opacity="0.35"/>
-  <circle cx="1066.5" cy="193.5" r="4" fill="#007C99" filter="url(#glow)" class="agent-motion">
-    <animateMotion dur="8s" begin="-0s" repeatCount="indefinite" path="M1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5 L1066.5,155.5 L1066.5,174.5 L1066.5,193.5"/>
+  <rect x="1060" y="187" width="13" height="13" rx="3" fill="#16834B" opacity="0.5"><title>2026-08-07: 41 contributions</title></rect>
+  <rect x="1060" y="206" width="13" height="13" rx="3" fill="#16834B" opacity="0.3"><title>2026-08-08: 2 contributions</title></rect>
+  <polyline id="route" points="1028.5,155.5 1028.5,174.5 1028.5,193.5 1028.5,212.5 1047.5,98.5 1047.5,117.5 1047.5,136.5 1047.5,155.5 1047.5,174.5 1047.5,193.5 1047.5,212.5 1066.5,98.5 1066.5,117.5 1066.5,136.5 1066.5,155.5 1066.5,174.5 1066.5,193.5 1066.5,212.5" fill="none" stroke="#007C99" stroke-width="1.2" opacity="0.35"/>
+  <circle cx="1066.5" cy="212.5" r="4" fill="#007C99" filter="url(#glow)" class="agent-motion">
+    <animateMotion dur="8s" begin="-0s" repeatCount="indefinite" path="M1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5 L1066.5,155.5 L1066.5,174.5 L1066.5,193.5 L1066.5,212.5"/>
   </circle>
-  <circle cx="1066.5" cy="193.5" r="3" fill="#6D3BE8" filter="url(#glow)" class="agent-motion">
-    <animateMotion dur="10s" begin="-2s" repeatCount="indefinite" path="M1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5 L1066.5,155.5 L1066.5,174.5 L1066.5,193.5"/>
+  <circle cx="1066.5" cy="212.5" r="3" fill="#6D3BE8" filter="url(#glow)" class="agent-motion">
+    <animateMotion dur="10s" begin="-2s" repeatCount="indefinite" path="M1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5 L1066.5,155.5 L1066.5,174.5 L1066.5,193.5 L1066.5,212.5"/>
   </circle>
-  <circle cx="1066.5" cy="193.5" r="3" fill="#007C99" filter="url(#glow)" class="agent-motion">
-    <animateMotion dur="12s" begin="-4s" repeatCount="indefinite" path="M1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5 L1066.5,155.5 L1066.5,174.5 L1066.5,193.5"/>
+  <circle cx="1066.5" cy="212.5" r="3" fill="#007C99" filter="url(#glow)" class="agent-motion">
+    <animateMotion dur="12s" begin="-4s" repeatCount="indefinite" path="M1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5 L1066.5,155.5 L1066.5,174.5 L1066.5,193.5 L1066.5,212.5"/>
   </circle>
   <text x="80" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">TOTAL</text>
-  <text x="198" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">1107</text>
+  <text x="198" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">1137</text>
   <text x="358" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">ACTIVE DAYS</text>
-  <text x="476" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">103</text>
+  <text x="476" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">104</text>
   <text x="636" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">CURRENT STREAK</text>
-  <text x="754" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">31</text>
+  <text x="754" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">32</text>
   <text x="914" y="270" fill="#526071" font-size="10" letter-spacing="1.2" class="mono">LONGEST STREAK</text>
   <text x="1032" y="270" fill="#101828" font-size="13" text-anchor="end" class="mono">36</text>
 </svg>
