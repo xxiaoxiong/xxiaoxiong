@@ -57,10 +57,10 @@
 
 | Repository / PR | Contribution | Field |
 |---|---|---|
+| [nexu-io/open-design #6773](https://github.com/nexu-io/open-design/pull/6773) | Fix workspace-scoped MCP resources/list and resources/read (#6770) | Engineering |
+| [nexu-io/open-design #6736](https://github.com/nexu-io/open-design/pull/6736) | fix(cli): make `od project list` honor the signed-in workspace (#6679) | Engineering |
 | [CherryHQ/cherry-studio #18117](https://github.com/CherryHQ/cherry-studio/pull/18117) | fix(backup): skip EBUSY locked files (LevelDB LOCK) during automatic backup | Engineering |
 | [nexu-io/open-design #6314](https://github.com/nexu-io/open-design/pull/6314) | fix(web): 让长演讲者备注在 presenter 视图里滚动而非裁切 (#6271) | Frontend |
-| [CherryHQ/cherry-studio #17972](https://github.com/CherryHQ/cherry-studio/pull/17972) | fix(web-search): guard query type in WebSearchTool and normalizeWebSearchKeywords; fix translation button contrast | Frontend |
-| [ZhuLinsen/daily_stock_analysis #2129](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2129) | fix: close #2122 explicit-suffix reject review blockers (OR-COR-607f1395 / OR-COR-26596201 / OR-COR-d6afd0d6) | Engineering |
 
 </details>
 
