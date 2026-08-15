@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-08-14T05:09:27.426Z",
+  "generatedAt": "2026-08-15T03:57:45.408Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "ZhuLinsen/daily_stock_analysis",
+      "number": 2206,
+      "title": "fix(tests): make dividend TTM dates date-relative to fix CI (#2204)",
+      "category": "Testing",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2206",
+      "state": "MERGED",
+      "mergedAt": "2026-08-14T14:00:53Z"
+    },
     {
       "repository": "nexu-io/open-design",
       "number": 6773,
@@ -50,22 +59,13 @@
       "url": "https://github.com/CherryHQ/cherry-studio/pull/17972",
       "state": "MERGED",
       "mergedAt": "2026-08-06T05:45:50Z"
-    },
-    {
-      "repository": "ZhuLinsen/daily_stock_analysis",
-      "number": 2129,
-      "title": "fix: close #2122 explicit-suffix reject review blockers (OR-COR-607f1395 / OR-COR-26596201 / OR-COR-d6afd0d6)",
-      "category": "Engineering",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2129",
-      "state": "MERGED",
-      "mergedAt": "2026-08-04T11:38:23Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1323,
-    "activeDays": 108,
-    "currentStreak": 37,
-    "longestStreak": 37,
+    "totalContributions": 1373,
+    "activeDays": 109,
+    "currentStreak": 38,
+    "longestStreak": 38,
     "weeks": [
       {
         "days": [
@@ -2124,8 +2124,13 @@
           },
           {
             "date": "2026-08-14",
-            "count": 11,
-            "level": "FIRST_QUARTILE"
+            "count": 41,
+            "level": "THIRD_QUARTILE"
+          },
+          {
+            "date": "2026-08-15",
+            "count": 20,
+            "level": "SECOND_QUARTILE"
           }
         ]
       }
@@ -2233,7 +2238,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-08-14T05:09:27.426Z",
+    "generatedAt": "2026-08-15T03:57:45.408Z",
     "recordCount": 6
   }
 }

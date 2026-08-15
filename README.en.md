@@ -57,10 +57,10 @@
 
 | Repository / PR | Contribution | Field |
 |---|---|---|
+| [ZhuLinsen/daily_stock_analysis #2206](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2206) | fix(tests): make dividend TTM dates date-relative to fix CI (#2204) | Testing |
 | [nexu-io/open-design #6773](https://github.com/nexu-io/open-design/pull/6773) | Fix workspace-scoped MCP resources/list and resources/read (#6770) | Engineering |
 | [nexu-io/open-design #6736](https://github.com/nexu-io/open-design/pull/6736) | fix(cli): make `od project list` honor the signed-in workspace (#6679) | Engineering |
 | [CherryHQ/cherry-studio #18117](https://github.com/CherryHQ/cherry-studio/pull/18117) | fix(backup): skip EBUSY locked files (LevelDB LOCK) during automatic backup | Engineering |
-| [nexu-io/open-design #6314](https://github.com/nexu-io/open-design/pull/6314) | fix(web): 让长演讲者备注在 presenter 视图里滚动而非裁切 (#6271) | Frontend |
 
 </details>
 
