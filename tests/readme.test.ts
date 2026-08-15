@@ -12,22 +12,24 @@ describe("README generation", () => {
   it("contains the required information architecture", async () => {
     const readme = await buildReadme();
     for (const heading of [
-      "核心项目",
-      "能力轨道",
-      "开源脉冲",
+      "我如何创造价值",
+      "代表项目",
+      "可验证能力",
+      "开源贡献",
       "联系我"
     ]) {
       expect(readme).toContain(`## ${heading}`);
     }
     expect(readme).toContain("README.en.md");
     expect(readme).toContain("3DHomepage");
-    expect(readme).toContain("learn-hermes-agent");
+    expect(readme).toContain("learn-deepseek-harness");
+    expect(readme).toContain("28 章、6 层认知坡道和 64 个源码锚点");
     expect(readme).toContain("general-agent-frame");
     const orderedProjects = [
-      "3DHomepage",
-      "Learn Hermes Agent",
-      "Awesome Multi-Agent Projects",
       "MegaDeepagents",
+      "Learn DeepSeek Harness",
+      "Awesome Multi-Agent Projects",
+      "3DHomepage",
       "General Agent Frame",
       "AI-GeneralPlat"
     ];
@@ -39,7 +41,8 @@ describe("README generation", () => {
     expect(readme).not.toContain("{{");
     expect(readme.length).toBeLessThan(15_000);
     const english = await buildReadme("en");
-    expect(english).toContain("## Core Projects");
+    expect(english).toContain("## How I Create Value");
+    expect(english).toContain("## Selected Work");
     expect(english).toContain("README.md");
     expect(english).not.toContain("{{");
   });
@@ -78,8 +81,13 @@ describe("README generation", () => {
       assets.map((asset) => access(resolve(rootDirectory, "assets/generated", asset)))
     );
     const chinese = await readFile(resolve(rootDirectory, "README.md"), "utf8");
-    expect(chinese).toContain("智能体系统工程师");
+    expect(chinese).toContain("Agent 系统工程师");
+    const chineseHero = await readFile(
+      resolve(rootDirectory, "assets/generated/hero-dark.svg"),
+      "utf8"
+    );
+    expect(chineseHero).toContain("做系统，也把源码讲清楚");
     const english = await readFile(resolve(rootDirectory, "README.en.md"), "utf8");
-    expect(english).toContain("Agentic Systems Engineer");
+    expect(english).toContain("Open-Source Educator");
   });
 });

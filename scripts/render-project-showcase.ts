@@ -11,6 +11,10 @@ const projectCopy: Record<
     zh: ["多智能体运行平台", "治理 · 状态 · 验证 · 恢复"],
     en: ["Multi-Agent Runtime", "Govern · Persist · Verify · Recover"]
   },
+  "xxiaoxiong/learn-deepseek-harness": {
+    zh: ["DeepSeek Harness 源码课程", "28 章 · 6 层 · 64 个源码锚点"],
+    en: ["DeepSeek Harness Source Course", "28 Chapters · 6 Levels · 64 Anchors"]
+  },
   "xxiaoxiong/3DHomepage": {
     zh: ["空间 AI 作品世界", "Three.js · 6 个交互区域"],
     en: ["Spatial AI World", "Three.js · 6 Interactive Zones"]
@@ -42,10 +46,14 @@ export function renderProjectShowcase(
   const flagship = [...projects].sort((a, b) => a.priority - b.priority).slice(0, 6);
   const labels =
     language === "zh-CN"
-      ? { title: "旗舰系统", hint: "三个项目，一条完整的 AI 工程主线", view: "点击下方链接进入项目" }
+      ? {
+          title: "代表作 · 可验证证据链",
+          hint: "系统工程、源码教学与开源研究，组成完整个人能力叙事",
+          view: "点击下方链接进入项目"
+        }
       : {
-          title: "FLAGSHIP SYSTEMS",
-          hint: "Three projects, one end-to-end AI engineering story",
+          title: "SELECTED WORK · EVIDENCE CHAIN",
+          hint: "Systems engineering, source education, and open-source research",
           view: "Open a project from the links below"
         };
   const cards = flagship
@@ -118,7 +126,7 @@ export function renderProjectShowcase(
   ${cards}
   <g transform="translate(538 510)">
     <circle r="4" fill="${color.green}" class="signal"/>
-    <text x="14" y="4" fill="${color.green}" font-size="10.5" letter-spacing="1.7" class="mono">BUILD → VERIFY → SHIP</text>
+    <text x="14" y="4" fill="${color.green}" font-size="10.5" letter-spacing="1.7" class="mono">BUILD → EXPLAIN → MAP → SHIP</text>
   </g>
 </svg>
 `;

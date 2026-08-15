@@ -1,73 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Nicholas Xiong — 智能体系统工程师</title>
-  <desc id="desc">面向生产环境构建多智能体运行时、本地 AI 平台与知识系统。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">Nicholas Xiong — Agent 系统工程师 · 开源技术讲解者</title>
+  <desc id="desc">构建可治理的 Agent 运行时，也把复杂源码讲成清晰、可复核、 能迁移到真实项目中的学习系统。</desc>
   <defs>
-    <linearGradient id="beam" x1="0" x2="1">
-      <stop offset="0" stop-color="#007C99" stop-opacity="0.08"/>
-      <stop offset="0.5" stop-color="#007C99" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#6D3BE8" stop-opacity="0.15"/>
+    <linearGradient id="heroBeam" x1="0" x2="1">
+      <stop offset="0" stop-color="#007C99" stop-opacity=".08"/>
+      <stop offset=".52" stop-color="#007C99" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#6D3BE8" stop-opacity=".18"/>
     </linearGradient>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <linearGradient id="heroWash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#007C99" stop-opacity=".07"/>
+      <stop offset=".6" stop-color="#F6F8FC" stop-opacity="0"/>
+      <stop offset="1" stop-color="#6D3BE8" stop-opacity=".07"/>
+    </linearGradient>
+    <filter id="heroGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <pattern id="heroGrid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#D7DFEB" stroke-width="1"/>
     </pattern>
     <style>
-      text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-      .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
-      .pulse{animation:pulse 3.6s ease-in-out infinite}
-      .packet{animation:packet 5.5s linear infinite}
-      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
-      @keyframes packet{0%{transform:translateX(-90px);opacity:0}15%,75%{opacity:1}100%{transform:translateX(380px);opacity:0}}
-      @media (prefers-reduced-motion:reduce){.pulse,.packet{animation:none}}
+      text{font-family:Inter,"Noto Sans SC","Microsoft YaHei",ui-sans-serif,system-ui,sans-serif}
+      .mono{font-family:"SFMono-Regular",Consolas,"Noto Sans Mono CJK SC",monospace}
+      .pulse{animation:heroPulse 3.8s ease-in-out infinite}
+      .trace{animation:heroTrace 5.6s linear infinite}
+      @keyframes heroPulse{0%,100%{opacity:.42}50%{opacity:1}}
+      @keyframes heroTrace{0%{transform:translateY(-52px);opacity:0}18%,76%{opacity:1}100%{transform:translateY(230px);opacity:0}}
+      @media (prefers-reduced-motion:reduce){.pulse,.trace{animation:none}}
     </style>
   </defs>
-  <rect width="1200" height="430" rx="22" fill="#F6F8FC"/>
-  <rect width="1200" height="430" rx="22" fill="url(#grid)" opacity="0.72"/>
-  <path d="M0 350 C240 310 380 420 620 360 S950 290 1200 350 V430 H0Z" fill="#007C99" opacity="0.025"/>
-  <rect x="44" y="38" width="1112" height="354" rx="16" fill="none" stroke="#D7DFEB"/>
-  <g transform="translate(74 74)">
-    <rect width="66" height="66" rx="14" fill="#FFFFFF" stroke="#007C99" stroke-width="1.5"/>
-    <path d="M16 49V17h7l20 22V17h8v32h-7L24 27v22z" fill="#101828"/>
-    <circle cx="55" cy="11" r="4" fill="#16834B" class="pulse" filter="url(#glow)"/>
+  <rect width="1200" height="480" rx="24" fill="#F6F8FC"/>
+  <rect width="1200" height="480" rx="24" fill="url(#heroGrid)" opacity=".62"/>
+  <rect width="1200" height="480" rx="24" fill="url(#heroWash)"/>
+  <rect x="42" y="38" width="1116" height="404" rx="18" fill="none" stroke="#D7DFEB"/>
+  <g transform="translate(72 68)">
+    <rect width="58" height="58" rx="14" fill="#FFFFFF" stroke="#007C99" stroke-width="1.5"/>
+    <path d="M14 43V15h7l17 18V15h7v28h-6L21 24v19z" fill="#101828"/>
+    <circle cx="49" cy="9" r="3.8" fill="#16834B" class="pulse" filter="url(#heroGlow)"/>
   </g>
-  <text x="74" y="188" fill="#526071" font-size="14" letter-spacing="2" class="mono">NICHOLAS / 智能体系统</text>
-  <text x="74" y="242" fill="#101828" font-size="42" font-weight="760" letter-spacing="1">智能体系统工程师</text>
-  <text x="74" y="282" fill="#101828" font-size="20">构建可治理的多智能体运行时、本地 AI 平台</text>
-  <text x="74" y="312" fill="#101828" font-size="20">以及可验证的企业级知识系统</text>
-  <text x="74" y="356" fill="#007C99" font-size="14" class="mono">多智能体运行时 · AI 基础设施 · RAG · 开源工程</text>
+  <text x="150" y="88" fill="#526071" font-size="12" letter-spacing="2.2" class="mono">NICHOLAS XIONG / BUILD · EXPLAIN · MAP</text>
+  <text x="150" y="116" fill="#007C99" font-size="13" font-weight="650">Agent 系统工程师 · 开源技术讲解者</text>
+  <text x="72" y="192" fill="#101828" font-size="41" font-weight="780" letter-spacing="1">做系统，也把源码讲清楚</text>
+  <text x="72" y="238" fill="#101828" font-size="18.5">构建可治理的 Agent 运行时，也把复杂源码讲成清晰、</text>
+  <text x="72" y="268" fill="#101828" font-size="18.5">可复核、 能迁移到真实项目中的学习系统。</text>
+  <line x1="72" y1="304" x2="650" y2="304" stroke="url(#heroBeam)" stroke-width="1.5"/>
+  <text x="72" y="338" fill="#526071" font-size="13.5">用公开项目证明能力，用源码证据支撑结论</text>
+  <g transform="translate(72 382)">
+    <circle cx="5" cy="-4" r="4.5" fill="#16834B" class="pulse"/>
+    <text x="20" y="0" fill="#16834B" font-size="10.5" letter-spacing="1.8" class="mono">OPEN SOURCE · SOURCE VERIFIED</text>
+  </g>
   <g>
-    <line x1="900" y1="100" x2="1030" y2="175" stroke="url(#beam)" stroke-width="2"/>
-    <line x1="1030" y1="175" x2="940" y2="260" stroke="url(#beam)" stroke-width="2"/>
-    <line x1="940" y1="260" x2="820" y2="208" stroke="url(#beam)" stroke-width="2"/>
-    <line x1="820" y1="208" x2="900" y2="100" stroke="url(#beam)" stroke-width="2"/>
-    <line x1="900" y1="100" x2="940" y2="260" stroke="url(#beam)" stroke-width="2"/>
-    <circle cx="850" cy="154" r="3.5" fill="#007C99" class="packet" filter="url(#glow)"/>
-    <g>
-      <circle cx="900" cy="100" r="28" fill="#FFFFFF" stroke="#007C99" stroke-width="1.5"/>
-      <circle cx="900" cy="100" r="5" fill="#007C99" opacity="0.9"/>
-      <text x="900" y="145" fill="#526071" text-anchor="middle" font-size="10" letter-spacing="1.6" class="mono">PLAN</text>
+    <line x1="742" y1="104" x2="742" y2="354" stroke="#D7DFEB" stroke-width="2"/>
+    <circle cx="742" cy="104" r="4" fill="#007C99" class="trace" filter="url(#heroGlow)"/>
+    <g transform="translate(770 72)">
+      <rect width="350" height="92" rx="16" fill="#FFFFFF" stroke="#007C99" stroke-opacity=".48"/>
+      <rect x="18" y="18" width="70" height="22" rx="11" fill="#EEF2F8" stroke="#D7DFEB"/>
+      <circle cx="29" cy="29" r="3" fill="#007C99"/>
+      <text x="39" y="33" fill="#007C99" font-size="9.5" letter-spacing="1.4" class="mono">BUILD</text>
+      <text x="18" y="61" fill="#101828" font-size="15.5" font-weight="740">构建可信 Agent 系统</text>
+      <text x="18" y="81" fill="#526071" font-size="10.8">可治理运行时、持久状态、受控工具与故障恢复</text>
     </g>
-    <g>
-      <circle cx="1030" cy="175" r="23" fill="#FFFFFF" stroke="#6D3BE8" stroke-width="1.5"/>
-      <circle cx="1030" cy="175" r="5" fill="#007C99" opacity="0.9"/>
-      <text x="1030" y="220" fill="#526071" text-anchor="middle" font-size="10" letter-spacing="1.6" class="mono">RUN</text>
+    <g transform="translate(770 188)">
+      <rect width="350" height="92" rx="16" fill="#FFFFFF" stroke="#6D3BE8" stroke-opacity=".72"/>
+      <rect x="18" y="18" width="70" height="22" rx="11" fill="#EEF2F8" stroke="#D7DFEB"/>
+      <circle cx="29" cy="29" r="3" fill="#6D3BE8"/>
+      <text x="39" y="33" fill="#6D3BE8" font-size="9.5" letter-spacing="1.4" class="mono">EXPLAIN</text>
+      <text x="18" y="61" fill="#101828" font-size="15.5" font-weight="740">讲清复杂源码</text>
+      <text x="18" y="81" fill="#526071" font-size="10.8">用架构优先的课程，把每个结论落回源码证据</text>
     </g>
-    <g>
-      <circle cx="940" cy="260" r="23" fill="#FFFFFF" stroke="#007C99" stroke-width="1.5"/>
-      <circle cx="940" cy="260" r="5" fill="#16834B" opacity="0.9"/>
-      <text x="940" y="305" fill="#526071" text-anchor="middle" font-size="10" letter-spacing="1.6" class="mono">VERIFY</text>
+    <g transform="translate(770 304)">
+      <rect width="350" height="92" rx="16" fill="#FFFFFF" stroke="#16834B" stroke-opacity=".48"/>
+      <rect x="18" y="18" width="70" height="22" rx="11" fill="#EEF2F8" stroke="#D7DFEB"/>
+      <circle cx="29" cy="29" r="3" fill="#16834B"/>
+      <text x="39" y="33" fill="#16834B" font-size="9.5" letter-spacing="1.4" class="mono">MAP</text>
+      <text x="18" y="61" fill="#101828" font-size="15.5" font-weight="740">建立开源生态图谱</text>
+      <text x="18" y="81" fill="#526071" font-size="10.8">用结构化数据生成可维护的双语开源研究产品</text>
     </g>
-    <g>
-      <circle cx="820" cy="208" r="23" fill="#FFFFFF" stroke="#6D3BE8" stroke-width="1.5"/>
-      <circle cx="820" cy="208" r="5" fill="#007C99" opacity="0.9"/>
-      <text x="820" y="253" fill="#526071" text-anchor="middle" font-size="10" letter-spacing="1.6" class="mono">STATE</text>
-    </g>
-  </g>
-  <g transform="translate(940 338)">
-    <circle cx="0" cy="-4" r="5" fill="#16834B" class="pulse"/>
-    <text x="15" y="0" fill="#16834B" font-size="12" letter-spacing="2" class="mono">SYSTEM ONLINE</text>
   </g>
 </svg>

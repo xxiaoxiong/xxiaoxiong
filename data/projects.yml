@@ -12,7 +12,7 @@ projects:
     liveUrl: https://megadeepagents.vercel.app
     repositoryUrl: https://github.com/xxiaoxiong/MegaDeepagents
     technologies: [Python, FastAPI, LangGraph, DeepAgents, SQLite, Vue 3]
-    priority: 4
+    priority: 1
     pinRecommendation: true
     originality: original
     readmeQuality: strong
@@ -26,6 +26,33 @@ projects:
     improvements:
       - Publish a short architecture demo with a verified run trace
       - Surface test scope and release history
+  - repository: xxiaoxiong/learn-deepseek-harness
+    title: Learn DeepSeek Harness
+    description: A bilingual, architecture-first course that makes DeepSeek Harness internals understandable and source-verifiable.
+    problem: DeepSeek Harness spans 49 package families, plugin composition, agent lifecycle, guarded tools and durable projections, making direct source-code study difficult for most developers.
+    architecture: Fixed upstream snapshot → six-plane architecture map → 28 progressive chapters → interactive mechanism flows → 64 source anchors → bilingual static course.
+    evidence:
+      - 28 chapters arranged as a six-level learning path
+      - 64 anchors lead back to upstream documentation, symbols and implementation paths
+      - 70 statically generated Chinese and English course routes
+      - Live Vercel course with architecture, comparison, timeline and source-index views
+    liveUrl: https://learn-deepseek-harness.vercel.app/zh
+    repositoryUrl: https://github.com/xxiaoxiong/learn-deepseek-harness
+    technologies: [Next.js, TypeScript, DeepSeek Harness, Cordis]
+    priority: 2
+    pinRecommendation: true
+    originality: original
+    readmeQuality: strong
+    hasDemo: true
+    hasTests: false
+    hasCI: false
+    license: MIT
+    issues:
+      - Upstream remains in developer preview, so course claims require explicit snapshot calibration
+      - Repository-level CI is not yet visible
+    improvements:
+      - Add content-integrity and internal-link checks to GitHub Actions
+      - Publish calibration notes when the upstream architecture changes
   - repository: xxiaoxiong/3DHomepage
     title: 3DHomepage
     description: A continuous Three.js world used as the information architecture for an engineering portfolio.
@@ -39,7 +66,7 @@ projects:
     liveUrl: https://3-d-homepage.vercel.app/
     repositoryUrl: https://github.com/xxiaoxiong/3DHomepage
     technologies: [Next.js, TypeScript, Three.js, React Three Fiber]
-    priority: 1
+    priority: 4
     pinRecommendation: true
     originality: original
     readmeQuality: strong
@@ -93,7 +120,7 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/AI-Agent-Orchestration
     technologies: [Python, FastAPI, LangGraph, Vue 3, Docker]
-    priority: 7
+    priority: 8
     pinRecommendation: false
     originality: original
     readmeQuality: good
@@ -119,7 +146,7 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/AI-DocReviewer
     technologies: [Python, FastAPI, RAG, Vector Search]
-    priority: 8
+    priority: 9
     pinRecommendation: false
     originality: original
     readmeQuality: good
@@ -172,7 +199,7 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/AI-ComputerRAG
     technologies: [Python, PyQt6, SQLite FTS5, BGE, USearch]
-    priority: 9
+    priority: 10
     pinRecommendation: false
     originality: original
     readmeQuality: adequate
@@ -198,7 +225,7 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/AI-DatabaseQuery
     technologies: [React, TypeScript, FastAPI, SQLAlchemy, ECharts]
-    priority: 10
+    priority: 11
     pinRecommendation: false
     originality: original
     readmeQuality: needs-work
@@ -224,7 +251,7 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/Deepwiki-Local
     technologies: [Next.js, React, TypeScript, RAG, Docker]
-    priority: 11
+    priority: 12
     pinRecommendation: false
     originality: fork
     readmeQuality: upstream
@@ -251,8 +278,8 @@ projects:
     liveUrl: null
     repositoryUrl: https://github.com/xxiaoxiong/learn-hermes-agent
     technologies: [TypeScript, Python, Hermes Agent, OpenAI SDK]
-    priority: 2
-    pinRecommendation: true
+    priority: 7
+    pinRecommendation: false
     originality: original
     readmeQuality: strong
     hasDemo: false

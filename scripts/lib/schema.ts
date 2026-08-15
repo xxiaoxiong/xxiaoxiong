@@ -6,21 +6,27 @@ export const profileSchema = z.object({
   name: z.string().min(1),
   github: z.string().regex(/^[A-Za-z0-9-]+$/),
   role: z.string().min(1),
+  roleZh: z.string().min(1),
   statement: z.string().min(1),
   statementZh: z.string().min(1),
   signature: z
     .array(
       z.object({
         title: z.string().min(1),
-        detail: z.string().min(1)
+        titleZh: z.string().min(1),
+        detail: z.string().min(1),
+        detailZh: z.string().min(1)
       })
     )
-    .length(4),
+    .length(3),
   currentFocus: z.array(z.string().min(1)).min(1),
+  currentFocusZh: z.array(z.string().min(1)).min(1),
   links: z.object({
     portfolio: url,
     github: url,
     megaDeepagents: url,
+    deepSeekCourse: url,
+    multiAgentAtlas: url,
     openSource: url
   }),
   contact: z.object({

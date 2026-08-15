@@ -6,7 +6,9 @@ describe("profile data", () => {
   it("validates every human and generated data source", async () => {
     const data = await loadData();
     expect(data.profile.github).toBe("xxiaoxiong");
-    expect(data.projects).toHaveLength(11);
+    expect(data.profile.roleZh).toContain("开源技术讲解者");
+    expect(data.profile.signature).toHaveLength(3);
+    expect(data.projects).toHaveLength(12);
     expect(data.capabilities.groups).toHaveLength(6);
     expect(generatedSchema.safeParse(data.generated).success).toBe(true);
   });
@@ -19,10 +21,10 @@ describe("profile data", () => {
     expect(
       pins.sort((a, b) => a.priority - b.priority).map((project) => project.repository)
     ).toEqual([
-      "xxiaoxiong/3DHomepage",
-      "xxiaoxiong/learn-hermes-agent",
-      "xxiaoxiong/awesome-multi-agent-projects",
       "xxiaoxiong/MegaDeepagents",
+      "xxiaoxiong/learn-deepseek-harness",
+      "xxiaoxiong/awesome-multi-agent-projects",
+      "xxiaoxiong/3DHomepage",
       "xxiaoxiong/general-agent-frame",
       "xxiaoxiong/AI-GeneralPlat"
     ]);

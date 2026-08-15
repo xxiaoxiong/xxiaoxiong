@@ -3,34 +3,40 @@
 {{HERO}}
 
 <p align="center">
-  <a href="https://github.com/xxiaoxiong/awesome-multi-agent-projects"><strong>🧭 Explore the Multi-Agent Atlas</strong></a>
+  <a href="https://github.com/xxiaoxiong/MegaDeepagents"><strong>BUILD · Explore the Agent Runtime</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/xxiaoxiong/MegaDeepagents"><strong>⚙️ View the Flagship Runtime</strong></a>
+  <a href="https://learn-deepseek-harness.vercel.app/en"><strong>EXPLAIN · Learn DeepSeek Harness</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://3-d-homepage.vercel.app/"><strong>🌐 Enter the 3D Portfolio</strong></a>
+  <a href="https://awesome-multi-agent-projects-site.vercel.app"><strong>MAP · Browse the Multi-Agent Atlas</strong></a>
 </p>
 
-## Start Here
+## How I Create Value
 
-| Your goal | Recommended entry | What you will find |
-|---|---|---|
-| **Discover multi-agent projects and compare approaches** | [Awesome Multi-Agent Projects](https://github.com/xxiaoxiong/awesome-multi-agent-projects) | A bilingual, domain-first atlas of open-source multi-agent systems |
-| **Evaluate my engineering depth** | [MegaDeepagents](https://github.com/xxiaoxiong/MegaDeepagents) | A governed, recoverable, and verifiable multi-agent task runtime |
-| **Explore my work quickly** | [3DHomepage](https://github.com/xxiaoxiong/3DHomepage) | An interactive 3D portfolio of AI engineering projects |
+| Path                 | Start with this project                                                              | What it proves                                                                                                    |
+| -------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| **BUILD · Systems**  | [MegaDeepagents](https://github.com/xxiaoxiong/MegaDeepagents)                       | State, tools, verification, recovery, and multi-agent collaboration formed into a governed runtime                |
+| **EXPLAIN · Source** | [Learn DeepSeek Harness](https://learn-deepseek-harness.vercel.app/en)               | 28 chapters, a six-level learning path, and 64 source anchors that make complex architecture clear and verifiable |
+| **MAP · Ecosystems** | [Awesome Multi-Agent Projects](https://awesome-multi-agent-projects-site.vercel.app) | A bilingual research product generated from structured data across 101 projects and 21 domains                    |
 
-> If one of these projects helps you, a Star on its repository is appreciated. Issues, usage feedback, and improvement ideas are welcome too.
+> **My method:** establish the architecture, trace the real mechanism, then connect every conclusion to code, tests, or public runtime evidence. The goal is a repeatable build—explain—verify—ship loop, not a long repository list.
 
-## Core Projects · Complete Map
+<p align="center">
+  <a href="https://3-d-homepage.vercel.app/">Enter the 3D Portfolio</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/xxiaoxiong?tab=repositories">View all public repositories</a>
+</p>
+
+## Selected Work
 
 {{PROJECTS_VISUAL}}
 
 {{PROJECT_LINKS}}
 
-## Capability Orbit
+## Verifiable Capabilities
 
 {{CAPABILITY_VISUAL}}
 
-## Open-Source Pulse
+## Open-Source Contributions
 
 {{CONTRIBUTION_VISUAL}}
 
@@ -41,18 +47,20 @@
 
 </details>
 
+> If a project saves you time, a Star on its repository is appreciated. Issues, corrections, and real usage feedback are equally valuable.
+
 ## Contact
 
 <p align="center">
-  <strong>Multi-Agent Systems · Local AI Platforms · RAG / Knowledge Engineering · Enterprise AI</strong>
+  <strong>Agent Runtimes · Source-Code Education · Open-Source Research · Local AI / RAG</strong>
 </p>
 
 <p align="center">
-  <a href="mailto:{{EMAIL}}">📮 {{EMAIL}}</a>
+  <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://github.com/xxiaoxiong">GitHub</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://3-d-homepage.vercel.app/">3D Portfolio</a>
 </p>
 
-<p align="center"><sub>Generated from versioned data and verified public GitHub API responses. Motion respects reduced-motion preferences.</sub></p>
+<p align="center"><sub>Deterministically generated from versioned data and verified public GitHub API responses. Theme-aware; motion respects reduced-motion preferences.</sub></p>
