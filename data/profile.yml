@@ -1,29 +1,40 @@
 name: Nicholas Xiong
 github: xxiaoxiong
-role: Agentic Systems Engineer
+role: Agentic Systems Engineer & Open-Source Educator
+roleZh: Agent 系统工程师 · 开源技术讲解者
 statement: >-
-  I build governed multi-agent runtimes, local AI platforms, and
-  production-grade knowledge systems.
+  I build governed agent runtimes and turn complex source code into clear,
+  verifiable learning systems.
 statementZh: >-
-  专注多智能体运行时、本地 AI 基础设施、RAG 与知识系统、
-  企业级 AI 应用和开源工程。
+  构建可治理的 Agent 运行时，也把复杂源码讲成清晰、可复核、
+  能迁移到真实项目中的学习系统。
 signature:
-  - title: Governed Agent Runtime
-    detail: Task graphs, durable state, controlled tools, verification, recovery
-  - title: Local AI Infrastructure
-    detail: OpenAI-compatible gateways, model serving, observability, deployment
-  - title: Knowledge and RAG Systems
-    detail: Document pipelines, retrieval, evidence-aware review, local-first search
-  - title: Open-Source Engineering
-    detail: Reproducible systems, bilingual documentation, tests, CI, accepted PRs
+  - title: Build reliable agent systems
+    titleZh: 构建可信 Agent 系统
+    detail: Governed runtimes, durable state, controlled tools and recovery
+    detailZh: 可治理运行时、持久状态、受控工具与故障恢复
+  - title: Explain complex source code
+    titleZh: 讲清复杂源码
+    detail: Architecture-first courses with source-verifiable conclusions
+    detailZh: 用架构优先的课程，把每个结论落回源码证据
+  - title: Map open-source ecosystems
+    titleZh: 建立开源生态图谱
+    detail: Bilingual research products generated from structured data
+    detailZh: 用结构化数据生成可维护的双语开源研究产品
 currentFocus:
-  - Governed multi-agent runtime
-  - AI-assisted investment research workflows
-  - Local-first AI platform engineering
+  - Governed and recoverable agent runtimes
+  - Source-code education for production AI systems
+  - Bilingual open-source ecosystem research
+currentFocusZh:
+  - 可治理、可恢复的 Agent 运行时
+  - 面向生产级 AI 系统的源码教学
+  - 双语开源生态研究与知识产品
 links:
   portfolio: https://3-d-homepage.vercel.app/
   github: https://github.com/xxiaoxiong
   megaDeepagents: https://github.com/xxiaoxiong/MegaDeepagents
+  deepSeekCourse: https://learn-deepseek-harness.vercel.app/zh
+  multiAgentAtlas: https://awesome-multi-agent-projects-site.vercel.app
   openSource: https://github.com/pulls?q=is%3Apr+author%3Axxiaoxiong
 contact:
   email: nicholas_daxiong@163.com

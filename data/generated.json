@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-08-14T05:09:27.426Z",
+  "generatedAt": "2026-08-15T04:01:39.199Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "number": 343,
+      "title": "fix(docs): fix incorrect heading position for Notifications in Chinese README",
+      "category": "Documentation",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/343",
+      "state": "MERGED",
+      "mergedAt": "2026-08-15T04:01:36Z"
+    },
+    {
+      "repository": "ZhuLinsen/daily_stock_analysis",
+      "number": 2206,
+      "title": "fix(tests): make dividend TTM dates date-relative to fix CI (#2204)",
+      "category": "Testing",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2206",
+      "state": "MERGED",
+      "mergedAt": "2026-08-14T14:00:53Z"
+    },
     {
       "repository": "nexu-io/open-design",
       "number": 6773,
@@ -41,31 +59,13 @@
       "url": "https://github.com/nexu-io/open-design/pull/6314",
       "state": "MERGED",
       "mergedAt": "2026-08-07T08:01:44Z"
-    },
-    {
-      "repository": "CherryHQ/cherry-studio",
-      "number": 17972,
-      "title": "fix(web-search): guard query type in WebSearchTool and normalizeWebSearchKeywords; fix translation button contrast",
-      "category": "Frontend",
-      "url": "https://github.com/CherryHQ/cherry-studio/pull/17972",
-      "state": "MERGED",
-      "mergedAt": "2026-08-06T05:45:50Z"
-    },
-    {
-      "repository": "ZhuLinsen/daily_stock_analysis",
-      "number": 2129,
-      "title": "fix: close #2122 explicit-suffix reject review blockers (OR-COR-607f1395 / OR-COR-26596201 / OR-COR-d6afd0d6)",
-      "category": "Engineering",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2129",
-      "state": "MERGED",
-      "mergedAt": "2026-08-04T11:38:23Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1323,
-    "activeDays": 108,
-    "currentStreak": 37,
-    "longestStreak": 37,
+    "totalContributions": 1374,
+    "activeDays": 109,
+    "currentStreak": 38,
+    "longestStreak": 38,
     "weeks": [
       {
         "days": [
@@ -1540,7 +1540,7 @@
           {
             "date": "2026-05-01",
             "count": 11,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-02",
@@ -1564,7 +1564,7 @@
           {
             "date": "2026-05-05",
             "count": 47,
-            "level": "THIRD_QUARTILE"
+            "level": "FOURTH_QUARTILE"
           },
           {
             "date": "2026-05-06",
@@ -1584,7 +1584,7 @@
           {
             "date": "2026-05-09",
             "count": 25,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           }
         ]
       },
@@ -1593,12 +1593,12 @@
           {
             "date": "2026-05-10",
             "count": 13,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-11",
             "count": 13,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-12",
@@ -1608,22 +1608,22 @@
           {
             "date": "2026-05-13",
             "count": 23,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-05-14",
             "count": 27,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-05-15",
             "count": 16,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-16",
             "count": 24,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           }
         ]
       },
@@ -1632,12 +1632,12 @@
           {
             "date": "2026-05-17",
             "count": 12,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-18",
             "count": 11,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-19",
@@ -1647,22 +1647,22 @@
           {
             "date": "2026-05-20",
             "count": 12,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-21",
             "count": 14,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-22",
             "count": 31,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-05-23",
             "count": 16,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           }
         ]
       },
@@ -1671,7 +1671,7 @@
           {
             "date": "2026-05-24",
             "count": 36,
-            "level": "THIRD_QUARTILE"
+            "level": "FOURTH_QUARTILE"
           },
           {
             "date": "2026-05-25",
@@ -1691,12 +1691,12 @@
           {
             "date": "2026-05-28",
             "count": 27,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-05-29",
             "count": 27,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-05-30",
@@ -1710,7 +1710,7 @@
           {
             "date": "2026-05-31",
             "count": 33,
-            "level": "THIRD_QUARTILE"
+            "level": "FOURTH_QUARTILE"
           },
           {
             "date": "2026-06-01",
@@ -1749,12 +1749,12 @@
           {
             "date": "2026-06-07",
             "count": 11,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-06-08",
             "count": 13,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-06-09",
@@ -1949,12 +1949,12 @@
           {
             "date": "2026-07-13",
             "count": 36,
-            "level": "THIRD_QUARTILE"
+            "level": "FOURTH_QUARTILE"
           },
           {
             "date": "2026-07-14",
             "count": 34,
-            "level": "THIRD_QUARTILE"
+            "level": "FOURTH_QUARTILE"
           },
           {
             "date": "2026-07-15",
@@ -1969,7 +1969,7 @@
           {
             "date": "2026-07-17",
             "count": 12,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-07-18",
@@ -1983,7 +1983,7 @@
           {
             "date": "2026-07-19",
             "count": 11,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-07-20",
@@ -2013,7 +2013,7 @@
           {
             "date": "2026-07-25",
             "count": 31,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           }
         ]
       },
@@ -2022,7 +2022,7 @@
           {
             "date": "2026-07-26",
             "count": 25,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-07-27",
@@ -2032,7 +2032,7 @@
           {
             "date": "2026-07-28",
             "count": 14,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-07-29",
@@ -2047,7 +2047,7 @@
           {
             "date": "2026-07-31",
             "count": 11,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-08-01",
@@ -2075,23 +2075,23 @@
           },
           {
             "date": "2026-08-05",
-            "count": 10,
+            "count": 1,
             "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-08-06",
-            "count": 80,
+            "count": 87,
             "level": "FOURTH_QUARTILE"
           },
           {
             "date": "2026-08-07",
-            "count": 31,
-            "level": "SECOND_QUARTILE"
+            "count": 29,
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-08-08",
-            "count": 14,
-            "level": "FIRST_QUARTILE"
+            "count": 16,
+            "level": "SECOND_QUARTILE"
           }
         ]
       },
@@ -2099,18 +2099,18 @@
         "days": [
           {
             "date": "2026-08-09",
-            "count": 48,
-            "level": "THIRD_QUARTILE"
+            "count": 47,
+            "level": "FOURTH_QUARTILE"
           },
           {
             "date": "2026-08-10",
             "count": 28,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-08-11",
-            "count": 21,
-            "level": "SECOND_QUARTILE"
+            "count": 23,
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-08-12",
@@ -2120,12 +2120,17 @@
           {
             "date": "2026-08-13",
             "count": 24,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-08-14",
-            "count": 11,
-            "level": "FIRST_QUARTILE"
+            "count": 42,
+            "level": "FOURTH_QUARTILE"
+          },
+          {
+            "date": "2026-08-15",
+            "count": 21,
+            "level": "SECOND_QUARTILE"
           }
         ]
       }
@@ -2133,16 +2138,16 @@
   },
   "repositorySummary": [
     {
-      "repository": "xxiaoxiong/3DHomepage",
+      "repository": "xxiaoxiong/MegaDeepagents",
       "defaultBranch": "main",
       "isFork": false,
-      "license": "MIT",
+      "license": null,
       "hasReadme": true,
-      "hasCI": false,
+      "hasCI": true,
       "hasDemo": true
     },
     {
-      "repository": "xxiaoxiong/learn-hermes-agent",
+      "repository": "xxiaoxiong/learn-deepseek-harness",
       "defaultBranch": "main",
       "isFork": false,
       "license": "MIT",
@@ -2160,12 +2165,12 @@
       "hasDemo": true
     },
     {
-      "repository": "xxiaoxiong/MegaDeepagents",
+      "repository": "xxiaoxiong/3DHomepage",
       "defaultBranch": "main",
       "isFork": false,
-      "license": null,
+      "license": "MIT",
       "hasReadme": true,
-      "hasCI": true,
+      "hasCI": false,
       "hasDemo": true
     },
     {
@@ -2185,6 +2190,15 @@
       "hasReadme": true,
       "hasCI": false,
       "hasDemo": false
+    },
+    {
+      "repository": "xxiaoxiong/learn-hermes-agent",
+      "defaultBranch": "main",
+      "isFork": false,
+      "license": "MIT",
+      "hasReadme": true,
+      "hasCI": false,
+      "hasDemo": true
     },
     {
       "repository": "xxiaoxiong/AI-Agent-Orchestration",
@@ -2233,7 +2247,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-08-14T05:09:27.426Z",
+    "generatedAt": "2026-08-15T04:01:39.199Z",
     "recordCount": 6
   }
 }

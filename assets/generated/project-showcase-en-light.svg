@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="535" viewBox="0 0 1200 535" role="img" aria-labelledby="title desc">
-  <title id="title">FLAGSHIP SYSTEMS</title>
-  <desc id="desc">Three projects, one end-to-end AI engineering story</desc>
+  <title id="title">SELECTED WORK · EVIDENCE CHAIN</title>
+  <desc id="desc">Systems engineering, source education, and open-source research</desc>
   <defs>
     <linearGradient id="projectBeam" x1="0" x2="1">
       <stop offset="0" stop-color="#007C99" stop-opacity=".15"/>
@@ -24,8 +24,8 @@
   </defs>
   <rect width="1200" height="535" rx="22" fill="#F6F8FC"/>
   <rect width="1200" height="535" rx="22" fill="url(#projectGrid)" opacity=".55"/>
-  <text x="42" y="46" fill="#101828" font-size="17" font-weight="760">FLAGSHIP SYSTEMS</text>
-  <text x="42" y="74" fill="#526071" font-size="13">Three projects, one end-to-end AI engineering story</text>
+  <text x="42" y="46" fill="#101828" font-size="17" font-weight="760">SELECTED WORK · EVIDENCE CHAIN</text>
+  <text x="42" y="74" fill="#526071" font-size="13">Systems engineering, source education, and open-source research</text>
   <text x="1158" y="46" fill="#526071" font-size="10.5" text-anchor="end" letter-spacing="1.4" class="mono">Open a project from the links below</text>
   <path id="projectRoute" d="M42 88 C260 46 440 92 600 88 S940 46 1158 88" fill="none" stroke="url(#projectBeam)" stroke-width="2"/>
   <circle r="5" fill="#007C99" filter="url(#projectGlow)" class="signal">
@@ -46,9 +46,31 @@
   <g transform="translate(42 102)">
       <rect width="356" height="184" rx="18" fill="#FFFFFF" stroke="#007C99" stroke-width="1.55" stroke-opacity="0.8"/>
       <text x="22" y="32" fill="#007C99" font-size="10.5" letter-spacing="1.8" class="mono">01 / PRIMARY</text>
-      <text x="22" y="66" fill="#101828" font-size="21" font-weight="760">3DHomepage</text>
-      <text x="22" y="96" fill="#101828" font-size="14.5" font-weight="650">Spatial AI World</text>
-      <text x="22" y="121" fill="#526071" font-size="11.5">Three.js · 6 Interactive Zones</text>
+      <text x="22" y="66" fill="#101828" font-size="21" font-weight="760">MegaDeepagents</text>
+      <text x="22" y="96" fill="#101828" font-size="14.5" font-weight="650">Multi-Agent Runtime</text>
+      <text x="22" y="121" fill="#526071" font-size="11.5">Govern · Persist · Verify · Recover</text>
+      <g transform="translate(22 142)">
+        <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
+        <circle cx="11" cy="11.5" r="2.7" fill="#16834B"/>
+        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">Python</text>
+      </g>
+      <g transform="translate(126 142)">
+        <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
+        <circle cx="11" cy="11.5" r="2.7" fill="#007C99"/>
+        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">FastAPI</text>
+      </g>
+      <g transform="translate(230 142)">
+        <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
+        <circle cx="11" cy="11.5" r="2.7" fill="#16834B"/>
+        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">LangGraph</text>
+      </g>
+    </g>
+  <g transform="translate(422 102)">
+      <rect width="356" height="184" rx="18" fill="#FFFFFF" stroke="#007C99" stroke-width="1.55" stroke-opacity="0.8"/>
+      <text x="22" y="32" fill="#007C99" font-size="10.5" letter-spacing="1.8" class="mono">02 / PRIMARY</text>
+      <text x="22" y="66" fill="#101828" font-size="21" font-weight="760">Learn DeepSeek Harness</text>
+      <text x="22" y="96" fill="#101828" font-size="14.5" font-weight="650">DeepSeek Harness Source Course</text>
+      <text x="22" y="121" fill="#526071" font-size="11.5">28 Chapters · 6 Levels · 64 Anchors</text>
       <g transform="translate(22 142)">
         <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
         <circle cx="11" cy="11.5" r="2.7" fill="#16834B"/>
@@ -62,29 +84,7 @@
       <g transform="translate(230 142)">
         <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
         <circle cx="11" cy="11.5" r="2.7" fill="#16834B"/>
-        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">Three.js</text>
-      </g>
-    </g>
-  <g transform="translate(422 102)">
-      <rect width="356" height="184" rx="18" fill="#FFFFFF" stroke="#007C99" stroke-width="1.55" stroke-opacity="0.8"/>
-      <text x="22" y="32" fill="#007C99" font-size="10.5" letter-spacing="1.8" class="mono">02 / PRIMARY</text>
-      <text x="22" y="66" fill="#101828" font-size="21" font-weight="760">Learn Hermes Agent</text>
-      <text x="22" y="96" fill="#101828" font-size="14.5" font-weight="650">Hermes Agent Learning Lab</text>
-      <text x="22" y="121" fill="#526071" font-size="11.5">24 Mechanisms · Bilingual Path</text>
-      <g transform="translate(22 142)">
-        <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
-        <circle cx="11" cy="11.5" r="2.7" fill="#16834B"/>
-        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">TypeScript</text>
-      </g>
-      <g transform="translate(126 142)">
-        <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
-        <circle cx="11" cy="11.5" r="2.7" fill="#007C99"/>
-        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">Python</text>
-      </g>
-      <g transform="translate(230 142)">
-        <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
-        <circle cx="11" cy="11.5" r="2.7" fill="#16834B"/>
-        <text x="20" y="15.2" fill="#526071" font-size="8.4" class="mono">Hermes Agent</text>
+        <text x="20" y="15.2" fill="#526071" font-size="8.4" class="mono">DeepSeek Harness</text>
       </g>
     </g>
   <g transform="translate(802 102)">
@@ -112,23 +112,23 @@
   <g transform="translate(42 308)">
       <rect width="356" height="184" rx="18" fill="#FFFFFF" stroke="#D7DFEB" stroke-width="1.1" stroke-opacity="1"/>
       <text x="22" y="32" fill="#6D3BE8" font-size="10.5" letter-spacing="1.8" class="mono">04 / CORE</text>
-      <text x="22" y="66" fill="#101828" font-size="21" font-weight="760">MegaDeepagents</text>
-      <text x="22" y="96" fill="#101828" font-size="14.5" font-weight="650">Multi-Agent Runtime</text>
-      <text x="22" y="121" fill="#526071" font-size="11.5">Govern · Persist · Verify · Recover</text>
+      <text x="22" y="66" fill="#101828" font-size="21" font-weight="760">3DHomepage</text>
+      <text x="22" y="96" fill="#101828" font-size="14.5" font-weight="650">Spatial AI World</text>
+      <text x="22" y="121" fill="#526071" font-size="11.5">Three.js · 6 Interactive Zones</text>
       <g transform="translate(22 142)">
         <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
         <circle cx="11" cy="11.5" r="2.7" fill="#16834B"/>
-        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">Python</text>
+        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">Next.js</text>
       </g>
       <g transform="translate(126 142)">
         <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
         <circle cx="11" cy="11.5" r="2.7" fill="#007C99"/>
-        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">FastAPI</text>
+        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">TypeScript</text>
       </g>
       <g transform="translate(230 142)">
         <rect width="94" height="23" rx="11.5" fill="#EEF2F8" stroke="#D7DFEB"/>
         <circle cx="11" cy="11.5" r="2.7" fill="#16834B"/>
-        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">LangGraph</text>
+        <text x="20" y="15.2" fill="#526071" font-size="9.5" class="mono">Three.js</text>
       </g>
     </g>
   <g transform="translate(422 308)">
@@ -177,6 +177,6 @@
     </g>
   <g transform="translate(538 510)">
     <circle r="4" fill="#16834B" class="signal"/>
-    <text x="14" y="4" fill="#16834B" font-size="10.5" letter-spacing="1.7" class="mono">BUILD → VERIFY → SHIP</text>
+    <text x="14" y="4" fill="#16834B" font-size="10.5" letter-spacing="1.7" class="mono">BUILD → EXPLAIN → MAP → SHIP</text>
   </g>
 </svg>

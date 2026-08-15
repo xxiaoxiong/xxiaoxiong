@@ -3,34 +3,40 @@
 {{HERO}}
 
 <p align="center">
-  <a href="https://github.com/xxiaoxiong/awesome-multi-agent-projects"><strong>🧭 浏览多智能体图谱</strong></a>
+  <a href="https://github.com/xxiaoxiong/MegaDeepagents"><strong>BUILD · 查看 Agent Runtime</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/xxiaoxiong/MegaDeepagents"><strong>⚙️ 查看旗舰运行时</strong></a>
+  <a href="https://learn-deepseek-harness.vercel.app/zh"><strong>EXPLAIN · 学习 DeepSeek Harness</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://3-d-homepage.vercel.app/"><strong>🌐 进入 3D 作品集</strong></a>
+  <a href="https://awesome-multi-agent-projects-site.vercel.app"><strong>MAP · 浏览多智能体图谱</strong></a>
 </p>
 
-## 从这里开始
+## 我如何创造价值
 
-| 你的目标 | 推荐入口 | 你会看到什么 |
-|---|---|---|
-| **发现多智能体项目与技术选型** | [Awesome Multi-Agent Projects](https://github.com/xxiaoxiong/awesome-multi-agent-projects) | 双语、按场景分类的多智能体开源项目图谱 |
-| **评估我的工程深度** | [MegaDeepagents](https://github.com/xxiaoxiong/MegaDeepagents) | 可治理、可恢复、可验证的多智能体任务运行时 |
-| **快速了解我的作品** | [3DHomepage](https://github.com/xxiaoxiong/3DHomepage) | 可交互的 3D AI 工程作品集 |
+| 路径                 | 先看这个项目                                                                         | 它证明了什么                                                           |
+| -------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| **BUILD · 做系统**   | [MegaDeepagents](https://github.com/xxiaoxiong/MegaDeepagents)                       | 把状态、工具、验证、恢复和多 Agent 协作做成一套可治理运行时            |
+| **EXPLAIN · 讲源码** | [Learn DeepSeek Harness](https://learn-deepseek-harness.vercel.app/zh)               | 用 28 章、6 层认知坡道和 64 个源码锚点，把复杂架构讲清楚并让结论可复核 |
+| **MAP · 建图谱**     | [Awesome Multi-Agent Projects](https://awesome-multi-agent-projects-site.vercel.app) | 用结构化数据持续生成 101 个项目、21 个领域的双语开源研究产品           |
 
-> 如果其中一个项目对你有帮助，欢迎在对应仓库点一个 Star；问题、使用反馈和改进建议也非常欢迎。
+> **我的方法：** 先建立全局架构，再追踪真实机制，最后把结论落回代码、测试或公开运行证据。不是堆项目名，而是持续完成“构建—解释—验证—发布”的闭环。
 
-## 核心项目 · 完整矩阵
+<p align="center">
+  <a href="https://3-d-homepage.vercel.app/">进入 3D 作品集</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/xxiaoxiong?tab=repositories">查看全部公开仓库</a>
+</p>
+
+## 代表项目
 
 {{PROJECTS_VISUAL}}
 
 {{PROJECT_LINKS}}
 
-## 能力轨道
+## 可验证能力
 
 {{CAPABILITY_VISUAL}}
 
-## 开源脉冲
+## 开源贡献
 
 {{CONTRIBUTION_VISUAL}}
 
@@ -41,18 +47,20 @@
 
 </details>
 
+> 如果某个项目帮你节省了时间，欢迎在对应仓库点一个 Star；Issue、内容勘误和真实使用反馈同样珍贵。
+
 ## 联系我
 
 <p align="center">
-  <strong>多智能体系统 · 本地 AI 平台 · RAG / 知识工程 · 企业 AI 应用</strong>
+  <strong>Agent Runtime · 源码教学 · 开源研究 · 本地 AI / RAG</strong>
 </p>
 
 <p align="center">
-  <a href="mailto:{{EMAIL}}">📮 {{EMAIL}}</a>
+  <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://github.com/xxiaoxiong">GitHub</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://3-d-homepage.vercel.app/">3D Portfolio</a>
 </p>
 
-<p align="center"><sub>内容由版本化数据与 GitHub 公共 API 生成；动态 SVG 支持减少动态效果偏好。</sub></p>
+<p align="center"><sub>首页由版本化数据与 GitHub 公共 API 确定性生成；主题自适应，动态效果遵循 reduced-motion 偏好。</sub></p>

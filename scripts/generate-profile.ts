@@ -35,9 +35,7 @@ export async function buildReadme(language: "en" | "zh-CN" = "zh-CN"): Promise<s
   const replacements: Record<string, string> = {
     "{{HERO}}": picture(
       "hero",
-      language === "zh-CN"
-        ? "Nicholas Xiong——智能体系统工程师"
-        : "Nicholas Xiong — Agentic Systems Engineer",
+      language === "zh-CN" ? `${profile.name}——${profile.roleZh}` : `${profile.name} — ${profile.role}`,
       language
     ),
     "{{PROJECTS_VISUAL}}": picture(
@@ -66,13 +64,13 @@ export async function buildReadme(language: "en" | "zh-CN" = "zh-CN"): Promise<s
 }
 
 export async function generateProfile(checkOnly = false): Promise<string[]> {
-  const { projects, capabilities, generated } = await loadData();
+  const { profile, projects, capabilities, generated } = await loadData();
   await mkdir(resolve(rootDirectory, "assets/generated"), { recursive: true });
   const outputs = new Map<string, string>([
-    ["assets/generated/hero-dark.svg", renderHero("dark", "zh-CN")],
-    ["assets/generated/hero-light.svg", renderHero("light", "zh-CN")],
-    ["assets/generated/hero-en-dark.svg", renderHero("dark", "en")],
-    ["assets/generated/hero-en-light.svg", renderHero("light", "en")],
+    ["assets/generated/hero-dark.svg", renderHero(profile, "dark", "zh-CN")],
+    ["assets/generated/hero-light.svg", renderHero(profile, "light", "zh-CN")],
+    ["assets/generated/hero-en-dark.svg", renderHero(profile, "dark", "en")],
+    ["assets/generated/hero-en-light.svg", renderHero(profile, "light", "en")],
     [
       "assets/generated/project-showcase-dark.svg",
       renderProjectShowcase(projects, "dark", "zh-CN")

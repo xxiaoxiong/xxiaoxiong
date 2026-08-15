@@ -53,8 +53,9 @@ describe("GitHub data safety", () => {
 
 describe("SVG renderers", () => {
   it("are deterministic and contain accessible static fallbacks", async () => {
-    const { generated } = await loadData();
-    expect(renderHero("dark")).toBe(renderHero("dark"));
+    const { profile, generated } = await loadData();
+    expect(renderHero(profile, "dark")).toBe(renderHero(profile, "dark"));
+    expect(renderHero(profile, "dark")).toContain("BUILD · EXPLAIN · MAP");
     const swarm = renderContributionSwarm(generated, "dark");
     const englishSwarm = renderContributionSwarm(generated, "dark", "en");
     const activeDays = generated.contributionSummary.weeks

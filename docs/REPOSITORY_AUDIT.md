@@ -1,110 +1,97 @@
 # Public Repository Audit
 
-Audited on 2026-07-25 from public repository metadata, root README files,
-licenses, package manifests and visible CI files. A missing file means it was
-not detected at the audited root/path; it does not prove that no equivalent
-work exists elsewhere in the repository.
+Audited on 2026-08-15 from public repository metadata, root README files,
+licenses, package manifests, deployment links and visible CI files. A missing
+file means it was not detected at the audited path; it does not prove that no
+equivalent work exists elsewhere in a repository.
 
-| Repository | Identity | README | Demo | Tests / CI | License | Pin |
-|---|---|---|---|---|---|---|
-| `3DHomepage` | Original | Strong spatial-system narrative | Live Vercel site | No CI detected | MIT | Yes |
-| `learn-hermes-agent` | Original | Strong 24-chapter teaching path | Runnable chapters | Tests present; root CI not detected | Verify root license | Yes |
-| `awesome-multi-agent-projects` | Original | Strong bilingual research directory | Live site | Tests and CI | CC0-1.0 | Yes |
-| `MegaDeepagents` | Original | Strong V3 runtime and deployment narrative | Project site | Tests documented; root CI not detected | MIT declaration, root file missing | Yes |
-| `general-agent-frame` | Original | Strong compact runtime scope | Local web and CLI | Tests documented; no CI detected | MIT | Yes |
-| `AI-GeneralPlat` | Original | Broad platform coverage | No public demo detected | Tests referenced; no CI detected | Missing | Yes, after hygiene |
-| `AI-Agent-Orchestration` | Original | Good learning-lab scope | No public demo detected | Tests documented; no CI detected | Missing | No |
-| `AI-DocReviewer` | Original | Good pipeline description; promotional metrics need evidence | No public demo detected | Not verified | Missing | No |
-| `AI-ComputerRAG` | Original | Adequate product concept | No public demo detected | Not verified | Missing | No |
-| `AI-DatabaseQuery` | Original | Needs security cleanup | No public demo detected | Not verified | Missing | No |
-| `Deepwiki-Local` | Fork/adaptation | Primarily upstream DeepWiki-Open identity | No distinct demo detected | No distinct CI detected | Upstream MIT | No |
+The profile is now organized around one memorable positioning system:
+
+1. **BUILD** — create reliable agent systems.
+2. **EXPLAIN** — turn complex source code into verifiable learning systems.
+3. **MAP** — publish structured, bilingual open-source research.
+
+| Repository                     | Role in the profile           | Public evidence                                                                   | Main gap                                                   | Pin |
+| ------------------------------ | ----------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------- | --- |
+| `MegaDeepagents`               | BUILD flagship                | Governed runtime architecture, tests, live project site                           | Add root license and visible CI                            | Yes |
+| `learn-deepseek-harness`       | EXPLAIN flagship              | Live bilingual course; 28 chapters, 6 levels, 70 static routes, 64 source anchors | Add repository-level CI; recalibrate with upstream changes | Yes |
+| `awesome-multi-agent-projects` | MAP flagship                  | Live bilingual directory; 101 projects, 21 categories, typed data and CI          | Keep research timestamps fresh                             | Yes |
+| `3DHomepage`                   | Experiential portfolio        | Live Three.js world with six navigable zones                                      | Add interaction and performance checks                     | Yes |
+| `general-agent-frame`          | Compact runtime proof         | DeepAgents-native runtime, permissions, memory and tests                          | Add CI and a trace-backed demo                             | Yes |
+| `AI-GeneralPlat`               | Platform breadth              | Models, RAG, workflows, agents and operations                                     | Add license, CI and security hardening                     | Yes |
+| `learn-hermes-agent`           | Earlier teaching work         | 24-mechanism bilingual learning path                                              | No live course; keep upstream alignment visible            | No  |
+| `AI-Agent-Orchestration`       | Learning lab                  | Approval, policy, trace and replay concepts                                       | Add license, CI and recorded trace                         | No  |
+| `AI-DocReviewer`               | Knowledge pipeline            | Structured parsing, retrieval and cross-section review                            | Replace promotional metrics with reproducible evaluation   | No  |
+| `AI-ComputerRAG`               | Local-first retrieval concept | Hybrid FTS and vector-search architecture                                         | Add benchmark, privacy model and packaging evidence        | No  |
+| `AI-DatabaseQuery`             | NL-to-SQL concept             | Connectors, SELECT-only intent and visualizations                                 | Remove credential-shaped examples; add safety tests        | No  |
+| `Deepwiki-Local`               | Fork/adaptation               | Upstream identity and license preserved                                           | Document a clear maintained fork delta                     | No  |
+
+## Why the first three changed
+
+The previous profile opened with a portfolio and a general project directory.
+Both are useful, but neither immediately explained Nicholas's distinctive
+value. The new first-screen sequence makes the evidence legible in seconds:
+
+- `MegaDeepagents` demonstrates systems engineering depth.
+- `learn-deepseek-harness` demonstrates source research and public education.
+- `awesome-multi-agent-projects` demonstrates structured open-source research.
+
+Together they form a stronger personal narrative than a list sorted by visual
+novelty, stars or repository age.
 
 ## Detailed findings
 
-### 3DHomepage
+### MegaDeepagents
 
-The strongest experiential proof. It turns six engineering themes into a
-continuous Three.js world with project deep links and a live deployment.
-Automated deep-link, reduced-motion and performance-budget checks would make
-the engineering evidence match the visual quality.
+The strongest runtime architecture evidence in the account. Its public story
+covers authoritative state, stable workers, fail-closed verification, Git
+worktree isolation and recovery. A visible CI workflow, root license and one
+trace-backed end-to-end demo would make the evidence easier to trust quickly.
 
-### learn-hermes-agent
+### learn-deepseek-harness
 
-A focused teaching companion that decomposes Hermes Agent v0.19.0 into 24
-progressive mechanisms, including runnable minimal implementations and the
-current profile, multi-agent and durable-delivery architecture. Add CI and
-keep each chapter visibly tied to the upstream version it explains.
+The strongest current education product. It fixes analysis to an upstream
+commit and connects 28 progressive chapters to 64 source anchors. The live
+course, architecture map, comparison view, timeline and source index turn the
+repository into a usable learning system rather than a long article. Preserve
+the independent-project disclaimer and publish calibration notes as the
+developer-preview upstream evolves.
 
 ### awesome-multi-agent-projects
 
-The strongest open-source information product. One typed dataset drives the
-README and site; CI checks schema, deterministic rendering, types, tests,
-builds and links. Preserve evidence timestamps and publish weekly change
-reports as the directory grows.
+The strongest open-source information product. One typed dataset generates the
+README and site, while CI checks schema, deterministic rendering, types, tests,
+builds and links. Keep generated counts and per-project review dates as the
+single source of truth.
 
-### MegaDeepagents
+### 3DHomepage
 
-The strongest architecture evidence in the account. Its README defines a
-single V3 control path, authoritative state boundaries, stable workers,
-fail-closed verification, Git worktree isolation and separate deployment
-surfaces. Add a root license and visible CI, then publish one trace-backed
-end-to-end demo.
+The strongest experiential proof. It turns engineering themes into a
+continuous Three.js world with real project links. It remains pinned, but no
+longer needs to carry the first-screen explanation of technical depth.
 
 ### general-agent-frame
 
-A deliberately compact DeepAgents-native runtime that keeps FastAPI, CLI,
-workspace, memory, skills, permissions and SQLite while removing unstable
-self-evolution paths. Add CI and publish a minimal trace that demonstrates the
-permission and approval boundary.
-
-### AI-Agent-Orchestration
-
-A useful bridge between learning and runtime engineering: durable state,
-policy checks, approval pause/resume, trace visibility and replayable smoke
-evaluation. Add an explicit license, CI and a recorded approval trace.
-
-### AI-DocReviewer
-
-The pipeline—structure-aware parsing, contextual chunks, retrieval,
-cross-paragraph checks and streaming—is relevant to knowledge systems.
-Percentage improvement claims in the current README were not independently
-verified. Replace them with a reproducible benchmark and golden test set.
+A deliberately compact DeepAgents-native runtime. It complements the larger
+MegaDeepagents architecture by showing restraint around workspace, memory,
+skills, permissions and SQLite. Add CI and publish a minimal permission and
+approval trace.
 
 ### AI-GeneralPlat
 
-Demonstrates breadth across model management, RAG, workflows, administration
-and agent execution. Before pinning, remove weak/default credential examples,
-add secret scanning, CI and a license, then narrow the story around one
-end-to-end enterprise workflow.
-
-### AI-ComputerRAG
-
-A promising local-first hybrid retrieval concept using filename search,
-SQLite FTS5, vectors and LLM assistance. It needs an evaluation corpus,
-privacy/threat model and reproducible Windows packaging evidence.
-
-### AI-DatabaseQuery
-
-The NL-to-SQL architecture and SELECT-only intent are useful, but the public
-README contains credential-shaped text. Remove it immediately and rotate the
-value if it was ever valid. Add secret scanning, parser-based SQL policy tests,
-database sandboxing, CI and a license before promoting the repository.
-
-### Deepwiki-Local
-
-The README and license preserve the upstream `DeepWiki-Open` identity and
-copyright. Keep this unpinned until a fork-delta document, distinct product
-scope and maintained local deployment evidence clearly establish the
-adaptation.
+The broadest platform proof across model management, RAG, workflows,
+administration and agents. Its breadth earns a final pin, but the repository
+still needs explicit licensing, CI, secret scanning and a narrower flagship
+workflow.
 
 ## Recommended six pins
 
-1. `3DHomepage`
-2. `learn-hermes-agent`
+1. `MegaDeepagents`
+2. `learn-deepseek-harness`
 3. `awesome-multi-agent-projects`
-4. `MegaDeepagents`
+4. `3DHomepage`
 5. `general-agent-frame`
-6. `AI-GeneralPlat` — after credential, license and CI hygiene
+6. `AI-GeneralPlat`
 
-GitHub does not expose pin management through this repository. Apply these six
-manually from the profile’s **Customize your pins** interface.
+This order mirrors the README evidence chain: **BUILD → EXPLAIN → MAP**, then
+portfolio experience, compact-runtime depth and platform breadth.
