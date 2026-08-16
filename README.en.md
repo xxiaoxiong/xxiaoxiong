@@ -63,10 +63,10 @@
 
 | Repository / PR | Contribution | Field |
 |---|---|---|
-| [awesome-dsh-plugin/awesome-dsh-plugin #343](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/343) | fix(docs): fix incorrect heading position for Notifications in Chinese README | Documentation |
-| [ZhuLinsen/daily_stock_analysis #2206](https://github.com/ZhuLinsen/daily_stock_analysis/pull/2206) | fix(tests): make dividend TTM dates date-relative to fix CI (#2204) | Testing |
-| [nexu-io/open-design #6773](https://github.com/nexu-io/open-design/pull/6773) | Fix workspace-scoped MCP resources/list and resources/read (#6770) | Engineering |
-| [nexu-io/open-design #6736](https://github.com/nexu-io/open-design/pull/6736) | fix(cli): make `od project list` honor the signed-in workspace (#6679) | Engineering |
+| [awesome-dsh-plugin/awesome-dsh-plugin #818](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/818) | Add xxiaoxiong/dsh-kubernetes | Engineering |
+| [awesome-dsh-plugin/awesome-dsh-plugin #816](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/816) | Add xxiaoxiong/dsh-ci | Engineering |
+| [awesome-dsh-plugin/awesome-dsh-plugin #688](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/688) | Add dsh-issue-tracker | Engineering |
+| [awesome-dsh-plugin/awesome-dsh-plugin #403](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/403) | Add dsh-prometheus | Engineering |
 
 </details>
 

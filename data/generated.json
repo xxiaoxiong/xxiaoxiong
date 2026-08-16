@@ -1,11 +1,47 @@
 {
-  "generatedAt": "2026-08-15T04:01:39.199Z",
+  "generatedAt": "2026-08-16T04:03:14.486Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "number": 818,
+      "title": "Add xxiaoxiong/dsh-kubernetes",
+      "category": "Engineering",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/818",
+      "state": "MERGED",
+      "mergedAt": "2026-08-16T02:45:14Z"
+    },
+    {
+      "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "number": 816,
+      "title": "Add xxiaoxiong/dsh-ci",
+      "category": "Engineering",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/816",
+      "state": "MERGED",
+      "mergedAt": "2026-08-16T02:45:00Z"
+    },
+    {
+      "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "number": 688,
+      "title": "Add dsh-issue-tracker",
+      "category": "Engineering",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/688",
+      "state": "MERGED",
+      "mergedAt": "2026-08-15T16:50:47Z"
+    },
+    {
+      "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "number": 403,
+      "title": "Add dsh-prometheus",
+      "category": "Engineering",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/403",
+      "state": "MERGED",
+      "mergedAt": "2026-08-15T06:47:04Z"
+    },
     {
       "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
       "number": 343,
@@ -23,89 +59,14 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2206",
       "state": "MERGED",
       "mergedAt": "2026-08-14T14:00:53Z"
-    },
-    {
-      "repository": "nexu-io/open-design",
-      "number": 6773,
-      "title": "Fix workspace-scoped MCP resources/list and resources/read (#6770)",
-      "category": "Engineering",
-      "url": "https://github.com/nexu-io/open-design/pull/6773",
-      "state": "MERGED",
-      "mergedAt": "2026-08-12T10:45:38Z"
-    },
-    {
-      "repository": "nexu-io/open-design",
-      "number": 6736,
-      "title": "fix(cli): make `od project list` honor the signed-in workspace (#6679)",
-      "category": "Engineering",
-      "url": "https://github.com/nexu-io/open-design/pull/6736",
-      "state": "MERGED",
-      "mergedAt": "2026-08-12T10:36:43Z"
-    },
-    {
-      "repository": "CherryHQ/cherry-studio",
-      "number": 18117,
-      "title": "fix(backup): skip EBUSY locked files (LevelDB LOCK) during automatic backup",
-      "category": "Engineering",
-      "url": "https://github.com/CherryHQ/cherry-studio/pull/18117",
-      "state": "MERGED",
-      "mergedAt": "2026-08-07T14:10:39Z"
-    },
-    {
-      "repository": "nexu-io/open-design",
-      "number": 6314,
-      "title": "fix(web): 让长演讲者备注在 presenter 视图里滚动而非裁切 (#6271)",
-      "category": "Frontend",
-      "url": "https://github.com/nexu-io/open-design/pull/6314",
-      "state": "MERGED",
-      "mergedAt": "2026-08-07T08:01:44Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1374,
-    "activeDays": 109,
-    "currentStreak": 38,
-    "longestStreak": 38,
+    "totalContributions": 1415,
+    "activeDays": 110,
+    "currentStreak": 39,
+    "longestStreak": 39,
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-08-10",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-11",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-12",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-13",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-14",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-15",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-16",
-            "count": 0,
-            "level": "NONE"
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -1540,7 +1501,7 @@
           {
             "date": "2026-05-01",
             "count": 11,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-05-02",
@@ -1564,7 +1525,7 @@
           {
             "date": "2026-05-05",
             "count": 47,
-            "level": "FOURTH_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-05-06",
@@ -1584,7 +1545,7 @@
           {
             "date": "2026-05-09",
             "count": 25,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           }
         ]
       },
@@ -1593,12 +1554,12 @@
           {
             "date": "2026-05-10",
             "count": 13,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-05-11",
             "count": 13,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-05-12",
@@ -1608,22 +1569,22 @@
           {
             "date": "2026-05-13",
             "count": 23,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-14",
             "count": 27,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-15",
             "count": 16,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-05-16",
             "count": 24,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           }
         ]
       },
@@ -1632,12 +1593,12 @@
           {
             "date": "2026-05-17",
             "count": 12,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-05-18",
             "count": 11,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-05-19",
@@ -1647,22 +1608,22 @@
           {
             "date": "2026-05-20",
             "count": 12,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-05-21",
             "count": 14,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-05-22",
             "count": 31,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-23",
             "count": 16,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           }
         ]
       },
@@ -1671,7 +1632,7 @@
           {
             "date": "2026-05-24",
             "count": 36,
-            "level": "FOURTH_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-05-25",
@@ -1691,12 +1652,12 @@
           {
             "date": "2026-05-28",
             "count": 27,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-29",
             "count": 27,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-30",
@@ -1710,7 +1671,7 @@
           {
             "date": "2026-05-31",
             "count": 33,
-            "level": "FOURTH_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-06-01",
@@ -1749,12 +1710,12 @@
           {
             "date": "2026-06-07",
             "count": 11,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-06-08",
             "count": 13,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-06-09",
@@ -1949,12 +1910,12 @@
           {
             "date": "2026-07-13",
             "count": 36,
-            "level": "FOURTH_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-07-14",
             "count": 34,
-            "level": "FOURTH_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-07-15",
@@ -1969,7 +1930,7 @@
           {
             "date": "2026-07-17",
             "count": 12,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-07-18",
@@ -1983,7 +1944,7 @@
           {
             "date": "2026-07-19",
             "count": 11,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-07-20",
@@ -2013,7 +1974,7 @@
           {
             "date": "2026-07-25",
             "count": 31,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           }
         ]
       },
@@ -2022,7 +1983,7 @@
           {
             "date": "2026-07-26",
             "count": 25,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-07-27",
@@ -2032,7 +1993,7 @@
           {
             "date": "2026-07-28",
             "count": 14,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-07-29",
@@ -2047,7 +2008,7 @@
           {
             "date": "2026-07-31",
             "count": 11,
-            "level": "SECOND_QUARTILE"
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-08-01",
@@ -2075,23 +2036,23 @@
           },
           {
             "date": "2026-08-05",
-            "count": 1,
+            "count": 10,
             "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-08-06",
-            "count": 87,
+            "count": 80,
             "level": "FOURTH_QUARTILE"
           },
           {
             "date": "2026-08-07",
-            "count": 29,
-            "level": "THIRD_QUARTILE"
+            "count": 31,
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-08-08",
-            "count": 16,
-            "level": "SECOND_QUARTILE"
+            "count": 14,
+            "level": "FIRST_QUARTILE"
           }
         ]
       },
@@ -2099,18 +2060,18 @@
         "days": [
           {
             "date": "2026-08-09",
-            "count": 47,
-            "level": "FOURTH_QUARTILE"
+            "count": 48,
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-08-10",
             "count": 28,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-08-11",
-            "count": 23,
-            "level": "THIRD_QUARTILE"
+            "count": 21,
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-08-12",
@@ -2120,16 +2081,25 @@
           {
             "date": "2026-08-13",
             "count": 24,
-            "level": "THIRD_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-08-14",
-            "count": 42,
-            "level": "FOURTH_QUARTILE"
+            "count": 41,
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-08-15",
-            "count": 21,
+            "count": 36,
+            "level": "THIRD_QUARTILE"
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-08-16",
+            "count": 26,
             "level": "SECOND_QUARTILE"
           }
         ]
@@ -2247,7 +2217,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-08-15T04:01:39.199Z",
+    "generatedAt": "2026-08-16T04:03:14.486Z",
     "recordCount": 6
   }
 }
