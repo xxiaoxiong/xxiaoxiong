@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-08-19T04:02:55.714Z",
+  "generatedAt": "2026-08-20T04:02:47.936Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "OpenHands/OpenHands",
+      "number": 16700,
+      "title": "fix: clear stale urlSearchResults for non-matching HTTPS URLs in useUrlSearch",
+      "category": "Engineering",
+      "url": "https://github.com/OpenHands/OpenHands/pull/16700",
+      "state": "MERGED",
+      "mergedAt": "2026-08-19T05:38:32Z"
+    },
     {
       "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
       "number": 818,
@@ -50,22 +59,13 @@
       "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/343",
       "state": "MERGED",
       "mergedAt": "2026-08-15T04:01:36Z"
-    },
-    {
-      "repository": "ZhuLinsen/daily_stock_analysis",
-      "number": 2206,
-      "title": "fix(tests): make dividend TTM dates date-relative to fix CI (#2204)",
-      "category": "Testing",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis/pull/2206",
-      "state": "MERGED",
-      "mergedAt": "2026-08-14T14:00:53Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1501,
-    "activeDays": 113,
-    "currentStreak": 42,
-    "longestStreak": 42,
+    "totalContributions": 1522,
+    "activeDays": 114,
+    "currentStreak": 43,
+    "longestStreak": 43,
     "weeks": [
       {
         "days": [
@@ -1540,7 +1540,7 @@
           {
             "date": "2026-05-08",
             "count": 17,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-09",
@@ -1642,7 +1642,7 @@
           {
             "date": "2026-05-26",
             "count": 17,
-            "level": "FIRST_QUARTILE"
+            "level": "SECOND_QUARTILE"
           },
           {
             "date": "2026-05-27",
@@ -1915,7 +1915,7 @@
           {
             "date": "2026-07-14",
             "count": 34,
-            "level": "SECOND_QUARTILE"
+            "level": "THIRD_QUARTILE"
           },
           {
             "date": "2026-07-15",
@@ -2075,7 +2075,7 @@
           },
           {
             "date": "2026-08-12",
-            "count": 68,
+            "count": 67,
             "level": "FOURTH_QUARTILE"
           },
           {
@@ -2099,7 +2099,7 @@
         "days": [
           {
             "date": "2026-08-16",
-            "count": 32,
+            "count": 33,
             "level": "SECOND_QUARTILE"
           },
           {
@@ -2114,8 +2114,13 @@
           },
           {
             "date": "2026-08-19",
-            "count": 44,
-            "level": "THIRD_QUARTILE"
+            "count": 58,
+            "level": "FOURTH_QUARTILE"
+          },
+          {
+            "date": "2026-08-20",
+            "count": 7,
+            "level": "FIRST_QUARTILE"
           }
         ]
       }
@@ -2232,7 +2237,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-08-19T04:02:55.714Z",
+    "generatedAt": "2026-08-20T04:02:47.936Z",
     "recordCount": 6
   }
 }
