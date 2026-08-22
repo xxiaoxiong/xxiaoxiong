@@ -64,9 +64,9 @@
 | Repository / PR | Contribution | Field |
 |---|---|---|
 | [OpenHands/OpenHands #16700](https://github.com/OpenHands/OpenHands/pull/16700) | fix: clear stale urlSearchResults for non-matching HTTPS URLs in useUrlSearch | Engineering |
+| [CherryHQ/cherry-studio #19099](https://github.com/CherryHQ/cherry-studio/pull/19099) | fix(keyboard): make message scroll containers focusable for arrow-key navigation (#19070) | Engineering |
 | [awesome-dsh-plugin/awesome-dsh-plugin #818](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/818) | Add xxiaoxiong/dsh-kubernetes | Engineering |
 | [awesome-dsh-plugin/awesome-dsh-plugin #816](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/816) | Add xxiaoxiong/dsh-ci | Engineering |
-| [awesome-dsh-plugin/awesome-dsh-plugin #688](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/688) | Add dsh-issue-tracker | Engineering |
 
 </details>
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T04:04:59.189Z",
+  "generatedAt": "2026-08-22T04:00:06.103Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
@@ -14,6 +14,15 @@
       "url": "https://github.com/OpenHands/OpenHands/pull/16700",
       "state": "MERGED",
       "mergedAt": "2026-08-19T05:38:32Z"
+    },
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "number": 19099,
+      "title": "fix(keyboard): make message scroll containers focusable for arrow-key navigation (#19070)",
+      "category": "Engineering",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/19099",
+      "state": "MERGED",
+      "mergedAt": "2026-08-21T09:48:13Z"
     },
     {
       "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
@@ -50,19 +59,10 @@
       "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/403",
       "state": "MERGED",
       "mergedAt": "2026-08-15T06:47:04Z"
-    },
-    {
-      "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "number": 343,
-      "title": "fix(docs): fix incorrect heading position for Notifications in Chinese README",
-      "category": "Documentation",
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/343",
-      "state": "MERGED",
-      "mergedAt": "2026-08-15T04:01:36Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1302,
+    "totalContributions": 1317,
     "activeDays": 101,
     "currentStreak": 40,
     "longestStreak": 40,
@@ -2124,8 +2124,13 @@
           },
           {
             "date": "2026-08-21",
-            "count": 2,
-            "level": "FIRST_QUARTILE"
+            "count": 17,
+            "level": "SECOND_QUARTILE"
+          },
+          {
+            "date": "2026-08-22",
+            "count": 0,
+            "level": "NONE"
           }
         ]
       }
@@ -2242,7 +2247,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-08-21T04:04:59.189Z",
+    "generatedAt": "2026-08-22T04:00:06.103Z",
     "recordCount": 6
   }
 }
