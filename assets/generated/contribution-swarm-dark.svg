@@ -371,7 +371,7 @@
   <rect x="1022" y="206" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.72"><title>2026-08-15: 32 contributions</title></rect>
   <rect x="1041" y="92" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.5"><title>2026-08-16: 16 contributions</title></rect>
   <rect x="1041" y="111" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.5"><title>2026-08-17: 15 contributions</title></rect>
-  <rect x="1041" y="130" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.5"><title>2026-08-18: 18 contributions</title></rect>
+  <rect x="1041" y="130" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.5"><title>2026-08-18: 17 contributions</title></rect>
   <rect x="1041" y="149" width="13" height="13" rx="3" fill="#80FFB2" opacity="1"><title>2026-08-19: 58 contributions</title></rect>
   <rect x="1041" y="168" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.5"><title>2026-08-20: 23 contributions</title></rect>
   <rect x="1041" y="187" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.5"><title>2026-08-21: 15 contributions</title></rect>
@@ -382,6 +382,7 @@
   <rect x="1060" y="149" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.3"><title>2026-08-26: 7 contributions</title></rect>
   <rect x="1060" y="168" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.3"><title>2026-08-27: 2 contributions</title></rect>
   <rect x="1060" y="187" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.08"><title>2026-08-28: 0 contributions</title></rect>
+  <rect x="1060" y="206" width="13" height="13" rx="3" fill="#80FFB2" opacity="0.08"><title>2026-08-29: 0 contributions</title></rect>
   <polyline id="route" points="1028.5,117.5 1028.5,136.5 1028.5,155.5 1028.5,174.5 1028.5,193.5 1028.5,212.5 1047.5,98.5 1047.5,117.5 1047.5,136.5 1047.5,155.5 1047.5,174.5 1047.5,193.5 1047.5,212.5 1066.5,98.5 1066.5,117.5 1066.5,136.5 1066.5,155.5 1066.5,174.5" fill="none" stroke="#3DE1FF" stroke-width="1.2" opacity="0.35"/>
   <circle cx="1066.5" cy="174.5" r="4" fill="#3DE1FF" filter="url(#glow)" class="agent-motion">
     <animateMotion dur="8s" begin="-0s" repeatCount="indefinite" path="M1028.5,117.5 L1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5 L1066.5,155.5 L1066.5,174.5"/>
@@ -393,7 +394,7 @@
     <animateMotion dur="12s" begin="-4s" repeatCount="indefinite" path="M1028.5,117.5 L1028.5,136.5 L1028.5,155.5 L1028.5,174.5 L1028.5,193.5 L1028.5,212.5 L1047.5,98.5 L1047.5,117.5 L1047.5,136.5 L1047.5,155.5 L1047.5,174.5 L1047.5,193.5 L1047.5,212.5 L1066.5,98.5 L1066.5,117.5 L1066.5,136.5 L1066.5,155.5 L1066.5,174.5"/>
   </circle>
   <text x="80" y="270" fill="#8491A5" font-size="10" letter-spacing="1.2" class="mono">总贡献</text>
-  <text x="198" y="270" fill="#E7EDF7" font-size="13" text-anchor="end" class="mono">1376</text>
+  <text x="198" y="270" fill="#E7EDF7" font-size="13" text-anchor="end" class="mono">1375</text>
   <text x="358" y="270" fill="#8491A5" font-size="10" letter-spacing="1.2" class="mono">活跃天数</text>
   <text x="476" y="270" fill="#E7EDF7" font-size="13" text-anchor="end" class="mono">107</text>
   <text x="636" y="270" fill="#8491A5" font-size="10" letter-spacing="1.2" class="mono">当前连续</text>
