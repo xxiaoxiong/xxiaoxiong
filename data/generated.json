@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T10:12:30.979Z",
+  "generatedAt": "2026-08-30T09:20:02.591Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
@@ -62,50 +62,11 @@
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1375,
-    "activeDays": 107,
-    "currentStreak": 46,
+    "totalContributions": 1401,
+    "activeDays": 111,
+    "currentStreak": 2,
     "longestStreak": 46,
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-08-24",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-25",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-26",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-27",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-28",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-29",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-08-30",
-            "count": 0,
-            "level": "NONE"
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -1344,13 +1305,13 @@
           },
           {
             "date": "2026-04-10",
-            "count": 0,
-            "level": "NONE"
+            "count": 3,
+            "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-04-11",
-            "count": 0,
-            "level": "NONE"
+            "count": 5,
+            "level": "FIRST_QUARTILE"
           }
         ]
       },
@@ -1934,7 +1895,7 @@
           },
           {
             "date": "2026-07-25",
-            "count": 21,
+            "count": 23,
             "level": "SECOND_QUARTILE"
           }
         ]
@@ -1943,7 +1904,7 @@
         "days": [
           {
             "date": "2026-07-26",
-            "count": 17,
+            "count": 19,
             "level": "SECOND_QUARTILE"
           },
           {
@@ -2129,8 +2090,17 @@
           },
           {
             "date": "2026-08-29",
-            "count": 0,
-            "level": "NONE"
+            "count": 6,
+            "level": "FIRST_QUARTILE"
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-08-30",
+            "count": 8,
+            "level": "FIRST_QUARTILE"
           }
         ]
       }
@@ -2247,7 +2217,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-08-29T10:12:30.979Z",
+    "generatedAt": "2026-08-30T09:20:02.591Z",
     "recordCount": 6
   }
 }
