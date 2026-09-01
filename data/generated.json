@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-08-31T09:53:35.797Z",
+  "generatedAt": "2026-09-01T08:45:25.291Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "number": 19807,
+      "title": "fix(renderer): make code block horizontal scrollbar thumb visible (fixes #19798)",
+      "category": "Engineering",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/19807",
+      "state": "MERGED",
+      "mergedAt": "2026-09-01T08:36:32Z"
+    },
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "number": 19713,
+      "title": "fix(translate-history): revalidate in place when membership changes (closes #19687)",
+      "category": "Engineering",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/19713",
+      "state": "MERGED",
+      "mergedAt": "2026-09-01T05:24:29Z"
+    },
     {
       "repository": "OpenHands/OpenHands",
       "number": 16700,
@@ -41,30 +59,12 @@
       "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/816",
       "state": "MERGED",
       "mergedAt": "2026-08-16T02:45:00Z"
-    },
-    {
-      "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "number": 688,
-      "title": "Add dsh-issue-tracker",
-      "category": "Engineering",
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/688",
-      "state": "MERGED",
-      "mergedAt": "2026-08-15T16:50:47Z"
-    },
-    {
-      "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "number": 403,
-      "title": "Add dsh-prometheus",
-      "category": "Engineering",
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/403",
-      "state": "MERGED",
-      "mergedAt": "2026-08-15T06:47:04Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1410,
-    "activeDays": 112,
-    "currentStreak": 3,
+    "totalContributions": 1430,
+    "activeDays": 113,
+    "currentStreak": 4,
     "longestStreak": 46,
     "weeks": [
       {
@@ -2104,8 +2104,13 @@
           },
           {
             "date": "2026-08-31",
-            "count": 3,
+            "count": 7,
             "level": "FIRST_QUARTILE"
+          },
+          {
+            "date": "2026-09-01",
+            "count": 16,
+            "level": "SECOND_QUARTILE"
           }
         ]
       }
@@ -2222,7 +2227,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-08-31T09:53:35.797Z",
+    "generatedAt": "2026-09-01T08:45:25.291Z",
     "recordCount": 6
   }
 }

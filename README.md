@@ -63,10 +63,10 @@
 
 | 仓库 / PR | 贡献 | 领域 |
 |---|---|---|
+| [CherryHQ/cherry-studio #19807](https://github.com/CherryHQ/cherry-studio/pull/19807) | fix(renderer): make code block horizontal scrollbar thumb visible (fixes #19798) | Engineering |
+| [CherryHQ/cherry-studio #19713](https://github.com/CherryHQ/cherry-studio/pull/19713) | fix(translate-history): revalidate in place when membership changes (closes #19687) | Engineering |
 | [OpenHands/OpenHands #16700](https://github.com/OpenHands/OpenHands/pull/16700) | fix: clear stale urlSearchResults for non-matching HTTPS URLs in useUrlSearch | Engineering |
 | [CherryHQ/cherry-studio #19099](https://github.com/CherryHQ/cherry-studio/pull/19099) | fix(keyboard): make message scroll containers focusable for arrow-key navigation (#19070) | Engineering |
-| [awesome-dsh-plugin/awesome-dsh-plugin #818](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/818) | Add xxiaoxiong/dsh-kubernetes | Engineering |
-| [awesome-dsh-plugin/awesome-dsh-plugin #816](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/816) | Add xxiaoxiong/dsh-ci | Engineering |
 
 </details>
 
