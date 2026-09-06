@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-09-05T07:44:39.372Z",
+  "generatedAt": "2026-09-06T07:58:50.925Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "number": 19979,
+      "title": "fix(kb_manage): persist absolute path as source for file items (fixes #19954)",
+      "category": "Engineering",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/19979",
+      "state": "MERGED",
+      "mergedAt": "2026-09-05T08:12:10Z"
+    },
     {
       "repository": "CherryHQ/cherry-studio",
       "number": 19807,
@@ -50,62 +59,14 @@
       "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/818",
       "state": "MERGED",
       "mergedAt": "2026-08-16T02:45:14Z"
-    },
-    {
-      "repository": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "number": 816,
-      "title": "Add xxiaoxiong/dsh-ci",
-      "category": "Engineering",
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/816",
-      "state": "MERGED",
-      "mergedAt": "2026-08-16T02:45:00Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1446,
-    "activeDays": 116,
-    "currentStreak": 7,
+    "totalContributions": 1447,
+    "activeDays": 117,
+    "currentStreak": 8,
     "longestStreak": 46,
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-08-31",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-09-01",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-09-02",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-09-03",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-09-04",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-09-05",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-09-06",
-            "count": 0,
-            "level": "NONE"
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -2129,6 +2090,15 @@
           },
           {
             "date": "2026-09-05",
+            "count": 1,
+            "level": "FIRST_QUARTILE"
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-09-06",
             "count": 0,
             "level": "NONE"
           }
@@ -2247,7 +2217,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-09-05T07:44:39.372Z",
+    "generatedAt": "2026-09-06T07:58:50.925Z",
     "recordCount": 6
   }
 }
