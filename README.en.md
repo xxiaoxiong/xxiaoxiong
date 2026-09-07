@@ -63,10 +63,10 @@
 
 | Repository / PR | Contribution | Field |
 |---|---|---|
+| [chaitanyagiri/munder-difflin #388](https://github.com/chaitanyagiri/munder-difflin/pull/388) | fix(hive): clear stale HEAD.lock and warn on commit give-up (fixes #378) | Engineering |
 | [CherryHQ/cherry-studio #19979](https://github.com/CherryHQ/cherry-studio/pull/19979) | fix(kb_manage): persist absolute path as source for file items (fixes #19954) | Engineering |
 | [CherryHQ/cherry-studio #19807](https://github.com/CherryHQ/cherry-studio/pull/19807) | fix(renderer): make code block horizontal scrollbar thumb visible (fixes #19798) | Engineering |
 | [CherryHQ/cherry-studio #19713](https://github.com/CherryHQ/cherry-studio/pull/19713) | fix(translate-history): revalidate in place when membership changes (closes #19687) | Engineering |
-| [OpenHands/OpenHands #16700](https://github.com/OpenHands/OpenHands/pull/16700) | fix: clear stale urlSearchResults for non-matching HTTPS URLs in useUrlSearch | Engineering |
 
 </details>
 
