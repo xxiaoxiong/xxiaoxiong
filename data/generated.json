@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-09-13T08:24:42.085Z",
+  "generatedAt": "2026-09-14T09:04:00.854Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "number": 19720,
+      "title": "fix(provider): normalize reasoning_effort for GitHub Copilot (rebases #18368, closes #11140)",
+      "category": "AI Gateway",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/19720",
+      "state": "MERGED",
+      "mergedAt": "2026-09-14T08:00:02Z"
+    },
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "number": 19710,
+      "title": "fix(model-selector): improve tag filter chips spacing and overflow behavior (closes #18411)",
+      "category": "Engineering",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/19710",
+      "state": "MERGED",
+      "mergedAt": "2026-09-14T02:39:31Z"
+    },
     {
       "repository": "chaitanyagiri/munder-difflin",
       "number": 388,
@@ -41,30 +59,12 @@
       "url": "https://github.com/CherryHQ/cherry-studio/pull/19713",
       "state": "MERGED",
       "mergedAt": "2026-09-01T05:24:29Z"
-    },
-    {
-      "repository": "OpenHands/OpenHands",
-      "number": 16700,
-      "title": "fix: clear stale urlSearchResults for non-matching HTTPS URLs in useUrlSearch",
-      "category": "Engineering",
-      "url": "https://github.com/OpenHands/OpenHands/pull/16700",
-      "state": "MERGED",
-      "mergedAt": "2026-08-19T05:38:32Z"
-    },
-    {
-      "repository": "CherryHQ/cherry-studio",
-      "number": 19099,
-      "title": "fix(keyboard): make message scroll containers focusable for arrow-key navigation (#19070)",
-      "category": "Engineering",
-      "url": "https://github.com/CherryHQ/cherry-studio/pull/19099",
-      "state": "MERGED",
-      "mergedAt": "2026-08-21T09:48:13Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1479,
-    "activeDays": 124,
-    "currentStreak": 7,
+    "totalContributions": 1492,
+    "activeDays": 125,
+    "currentStreak": 8,
     "longestStreak": 46,
     "weeks": [
       {
@@ -2099,7 +2099,12 @@
         "days": [
           {
             "date": "2026-09-13",
-            "count": 12,
+            "count": 23,
+            "level": "SECOND_QUARTILE"
+          },
+          {
+            "date": "2026-09-14",
+            "count": 2,
             "level": "FIRST_QUARTILE"
           }
         ]
@@ -2217,7 +2222,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-09-13T08:24:42.085Z",
+    "generatedAt": "2026-09-14T09:04:00.854Z",
     "recordCount": 6
   }
 }
