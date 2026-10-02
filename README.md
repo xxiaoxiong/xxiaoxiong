@@ -65,7 +65,7 @@
 |---|---|---|
 | [CherryHQ/cherry-studio #19720](https://github.com/CherryHQ/cherry-studio/pull/19720) | fix(provider): normalize reasoning_effort for GitHub Copilot (rebases #18368, closes #11140) | AI Gateway |
 | [CherryHQ/cherry-studio #19710](https://github.com/CherryHQ/cherry-studio/pull/19710) | fix(model-selector): improve tag filter chips spacing and overflow behavior (closes #18411) | Engineering |
-| [chaitanyagiri/munder-difflin #388](https://github.com/chaitanyagiri/munder-difflin/pull/388) | fix(hive): clear stale HEAD.lock and warn on commit give-up (fixes #378) | Engineering |
+| [HarnessMD/munder-difflin #388](https://github.com/HarnessMD/munder-difflin/pull/388) | fix(hive): clear stale HEAD.lock and warn on commit give-up (fixes #378) | Engineering |
 | [CherryHQ/cherry-studio #19979](https://github.com/CherryHQ/cherry-studio/pull/19979) | fix(kb_manage): persist absolute path as source for file items (fixes #19954) | Engineering |
 
 </details>
