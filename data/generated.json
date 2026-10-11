@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T09:58:38.675Z",
+  "generatedAt": "2026-10-11T10:08:13.457Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
@@ -67,45 +67,6 @@
     "currentStreak": 1,
     "longestStreak": 46,
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-10-05",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-10-06",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-10-07",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-10-08",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-10-09",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-10-10",
-            "count": 0,
-            "level": "NONE"
-          },
-          {
-            "date": "2025-10-11",
-            "count": 0,
-            "level": "NONE"
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -2133,6 +2094,15 @@
             "level": "NONE"
           }
         ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-10-11",
+            "count": 0,
+            "level": "NONE"
+          }
+        ]
       }
     ]
   },
@@ -2247,7 +2217,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-10-10T09:58:38.675Z",
+    "generatedAt": "2026-10-11T10:08:13.457Z",
     "recordCount": 6
   }
 }
