@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-10-13T10:46:17.497Z",
+  "generatedAt": "2026-10-14T08:50:15.384Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "number": 19709,
+      "title": "feat(agent): mount ApiGatewayRequiredDialog at AppShell level (Fixes #18556)",
+      "category": "Frontend",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/19709",
+      "state": "MERGED",
+      "mergedAt": "2026-10-14T05:41:53Z"
+    },
     {
       "repository": "CherryHQ/cherry-studio",
       "number": 19720,
@@ -50,20 +59,11 @@
       "url": "https://github.com/CherryHQ/cherry-studio/pull/19807",
       "state": "MERGED",
       "mergedAt": "2026-09-01T08:36:32Z"
-    },
-    {
-      "repository": "CherryHQ/cherry-studio",
-      "number": 19713,
-      "title": "fix(translate-history): revalidate in place when membership changes (closes #19687)",
-      "category": "Engineering",
-      "url": "https://github.com/CherryHQ/cherry-studio/pull/19713",
-      "state": "MERGED",
-      "mergedAt": "2026-09-01T05:24:29Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1509,
-    "activeDays": 131,
+    "totalContributions": 1510,
+    "activeDays": 132,
     "currentStreak": 1,
     "longestStreak": 46,
     "weeks": [
@@ -2111,6 +2111,11 @@
             "date": "2026-10-13",
             "count": 0,
             "level": "NONE"
+          },
+          {
+            "date": "2026-10-14",
+            "count": 1,
+            "level": "FIRST_QUARTILE"
           }
         ]
       }
@@ -2227,7 +2232,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-10-13T10:46:17.497Z",
+    "generatedAt": "2026-10-14T08:50:15.384Z",
     "recordCount": 6
   }
 }
