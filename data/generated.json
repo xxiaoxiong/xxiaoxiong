@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-11-06T11:06:51.684Z",
+  "generatedAt": "2026-11-07T10:25:34.799Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "CherryHQ/cherry-studio",
+      "number": 22080,
+      "title": "fix(api-gateway): surface classified 504 on upstream idle timeout instead of an opaque 500",
+      "category": "AI Gateway",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/22080",
+      "state": "MERGED",
+      "mergedAt": "2026-11-07T02:23:23Z"
+    },
     {
       "repository": "CherryHQ/cherry-studio",
       "number": 19709,
@@ -50,21 +59,12 @@
       "url": "https://github.com/CherryHQ/cherry-studio/pull/19979",
       "state": "MERGED",
       "mergedAt": "2026-09-05T08:12:10Z"
-    },
-    {
-      "repository": "CherryHQ/cherry-studio",
-      "number": 19807,
-      "title": "fix(renderer): make code block horizontal scrollbar thumb visible (fixes #19798)",
-      "category": "Engineering",
-      "url": "https://github.com/CherryHQ/cherry-studio/pull/19807",
-      "state": "MERGED",
-      "mergedAt": "2026-09-01T08:36:32Z"
     }
   ],
   "contributionSummary": {
-    "totalContributions": 1529,
-    "activeDays": 137,
-    "currentStreak": 1,
+    "totalContributions": 1531,
+    "activeDays": 138,
+    "currentStreak": 2,
     "longestStreak": 46,
     "weeks": [
       {
@@ -2124,7 +2124,12 @@
           },
           {
             "date": "2026-11-06",
-            "count": 3,
+            "count": 4,
+            "level": "FIRST_QUARTILE"
+          },
+          {
+            "date": "2026-11-07",
+            "count": 1,
             "level": "FIRST_QUARTILE"
           }
         ]
@@ -2242,7 +2247,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-11-06T11:06:51.684Z",
+    "generatedAt": "2026-11-07T10:25:34.799Z",
     "recordCount": 6
   }
 }
