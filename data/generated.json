@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-11-09T11:47:31.510Z",
+  "generatedAt": "2026-11-10T11:23:31.668Z",
   "source": {
     "provider": "GitHub API",
     "query": "author:xxiaoxiong is:pr is:merged; contributionsCollection",
     "cachePolicy": "last-known-good"
   },
   "recentMergedPullRequests": [
+    {
+      "repository": "xerrors/Yuxi",
+      "number": 1155,
+      "title": "fix(frontend): use copyTextToClipboard util for API key copy (#1151)",
+      "category": "Backend",
+      "url": "https://github.com/xerrors/Yuxi/pull/1155",
+      "state": "MERGED",
+      "mergedAt": "2026-11-10T01:58:13Z"
+    },
     {
       "repository": "CherryHQ/cherry-studio",
       "number": 22080,
@@ -50,21 +59,12 @@
       "url": "https://github.com/HarnessMD/munder-difflin/pull/388",
       "state": "MERGED",
       "mergedAt": "2026-09-06T17:40:49Z"
-    },
-    {
-      "repository": "CherryHQ/cherry-studio",
-      "number": 19979,
-      "title": "fix(kb_manage): persist absolute path as source for file items (fixes #19954)",
-      "category": "Engineering",
-      "url": "https://github.com/CherryHQ/cherry-studio/pull/19979",
-      "state": "MERGED",
-      "mergedAt": "2026-09-05T08:12:10Z"
     }
   ],
   "contributionSummary": {
     "totalContributions": 1540,
-    "activeDays": 140,
-    "currentStreak": 4,
+    "activeDays": 141,
+    "currentStreak": 5,
     "longestStreak": 46,
     "weeks": [
       {
@@ -1661,7 +1661,7 @@
           },
           {
             "date": "2026-08-22",
-            "count": 4,
+            "count": 3,
             "level": "FIRST_QUARTILE"
           }
         ]
@@ -1675,7 +1675,7 @@
           },
           {
             "date": "2026-08-24",
-            "count": 37,
+            "count": 35,
             "level": "THIRD_QUARTILE"
           },
           {
@@ -2099,12 +2099,17 @@
         "days": [
           {
             "date": "2026-11-08",
-            "count": 5,
+            "count": 6,
             "level": "FIRST_QUARTILE"
           },
           {
             "date": "2026-11-09",
             "count": 4,
+            "level": "FIRST_QUARTILE"
+          },
+          {
+            "date": "2026-11-10",
+            "count": 2,
             "level": "FIRST_QUARTILE"
           }
         ]
@@ -2222,7 +2227,7 @@
     }
   ],
   "previousSuccessfulGeneration": {
-    "generatedAt": "2026-11-09T11:47:31.510Z",
+    "generatedAt": "2026-11-10T11:23:31.668Z",
     "recordCount": 6
   }
 }

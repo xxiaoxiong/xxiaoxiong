@@ -63,10 +63,10 @@
 
 | Repository / PR | Contribution | Field |
 |---|---|---|
+| [xerrors/Yuxi #1155](https://github.com/xerrors/Yuxi/pull/1155) | fix(frontend): use copyTextToClipboard util for API key copy (#1151) | Backend |
 | [CherryHQ/cherry-studio #22080](https://github.com/CherryHQ/cherry-studio/pull/22080) | fix(api-gateway): surface classified 504 on upstream idle timeout instead of an opaque 500 | AI Gateway |
 | [CherryHQ/cherry-studio #19709](https://github.com/CherryHQ/cherry-studio/pull/19709) | feat(agent): mount ApiGatewayRequiredDialog at AppShell level (Fixes #18556) | Frontend |
 | [CherryHQ/cherry-studio #19720](https://github.com/CherryHQ/cherry-studio/pull/19720) | fix(provider): normalize reasoning_effort for GitHub Copilot (rebases #18368, closes #11140) | AI Gateway |
-| [CherryHQ/cherry-studio #19710](https://github.com/CherryHQ/cherry-studio/pull/19710) | fix(model-selector): improve tag filter chips spacing and overflow behavior (closes #18411) | Engineering |
 
 </details>
 
